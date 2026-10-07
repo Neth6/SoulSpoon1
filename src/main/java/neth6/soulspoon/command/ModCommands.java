@@ -11,6 +11,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
 
 import neth6.soulspoon.soul.DeadPlayers;
+import neth6.soulspoon.soul.ReviveManager;
 import neth6.soulspoon.soul.SoulManager;
 
 import java.util.Map;
@@ -27,6 +28,10 @@ public class ModCommands {
                                                 .executes(ModCommands::spendSoul))
                                         .then(Commands.literal("muertos")
                                                 .executes(ModCommands::listDead))
+                                        .then(Commands.literal("revivir")
+                                                .then(Commands.argument(
+                                                                "nombre", StringArgumentType.word())
+                                                        .executes(ModCommands::revive)))
                                         .then(Commands.literal("perdonar")
                                                 .requires(source -> source.hasPermission(2))
                                                 .then(Commands.argument(
@@ -62,6 +67,21 @@ public class ModCommands {
             say(context, "Nadie esta muerto");
         } else {
             say(context, "Muertos: " + String.join(", ", dead.getAll().values()));
+        }
+        return Command.SINGLE_SUCCESS;
+    }
+
+    private static int revive(CommandContext<CommandSourceStack> context)
+            throws CommandSyntaxException {
+        ServerPlayer player = context.getSource().getPlayerOrException();
+        String name = StringArgumentType.getString(context, "nombre");
+        ReviveManager.Result result = ReviveManager.revive(player, name);
+
+        switch (result) {
+            case SUCCESS -> say(context, name + " fue revivido. Te quedan "
+                    + SoulManager.getSouls(player) + " almas");
+            case NO_SOULS -> say(context, "No te quedan almas para revivir");
+            case NOT_DEAD -> say(context, name + " no esta muerto");
         }
         return Command.SINGLE_SUCCESS;
     }
