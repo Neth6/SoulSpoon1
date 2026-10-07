@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.minecraft.resources.ResourceLocation;
 
 import neth6.soulspoon.command.ModCommands;
+import neth6.soulspoon.event.ModEvents;
 import neth6.soulspoon.item.ModItems;
 import neth6.soulspoon.soul.SoulManager;
 
@@ -21,6 +22,7 @@ public class SoulSpoon implements ModInitializer {
         ModItems.initialize();
         SoulManager.initialize();
         ModCommands.initialize();
+        ModEvents.initialize();
 
         LOGGER.info("SoulSpoon cargado: la Cuchara de Almas esta registrada");
     }
