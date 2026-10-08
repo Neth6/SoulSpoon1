@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.ResourceLocation;
 
+import neth6.soulspoon.block.ModBlocks;
 import neth6.soulspoon.command.ModCommands;
 import neth6.soulspoon.event.ModEvents;
 import neth6.soulspoon.item.ModItems;
@@ -20,6 +21,7 @@ public class SoulSpoon implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItems.initialize();
+        ModBlocks.initialize();
         SoulManager.initialize();
         ModCommands.initialize();
         ModEvents.initialize();
