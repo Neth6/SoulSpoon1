@@ -1,32 +1,22 @@
 package neth6.soulspoon.command;
 
 import com.mojang.brigadier.Command;
-import com.mojang.brigadier.arguments.IntegerArgumentType;
 import com.mojang.brigadier.arguments.StringArgumentType;
-import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
-import com.mojang.brigadier.suggestion.Suggestions;
-import com.mojang.brigadier.suggestion.SuggestionsBuilder;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
-import net.minecraft.commands.SharedSuggestionProvider;
-import net.minecraft.commands.arguments.ResourceLocationArgument;
-import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.world.item.Items;
 
+import neth6.soulspoon.gui.RecipeMenu;
 import neth6.soulspoon.soul.DeadPlayers;
 import neth6.soulspoon.soul.ReviveManager;
 import neth6.soulspoon.soul.SoulManager;
-import neth6.soulspoon.soul.SpoonRecipe;
 
 import java.util.Map;
 import java.util.UUID;
-import java.util.concurrent.CompletableFuture;
 
 public class ModCommands {
     public static void initialize() {
@@ -48,48 +38,14 @@ public class ModCommands {
                                                 .then(Commands.argument(
                                                                 "nombre", StringArgumentType.word())
                                                         .executes(ModCommands::forgive)))
-                                        .then(recipeCommand())
+                                        .then(Commands.literal("recetas")
+                                                .executes(ModCommands::openRecipes))
                         )
         );
     }
 
-    // /almas receta [agregar|quitar|reiniciar]
-    private static LiteralArgumentBuilder<CommandSourceStack> recipeCommand() {
-        return Commands.literal("receta")
-                .executes(ModCommands::showRecipe)
-                .then(Commands.literal("agregar")
-                        .requires(source -> source.hasPermission(2))
-                        .then(Commands.argument("item", ResourceLocationArgument.id())
-                                .suggests(ModCommands::suggestItems)
-                                .then(Commands.argument("cantidad",
-                                                IntegerArgumentType.integer(1, 64))
-                                        .executes(ModCommands::addIngredient))))
-                .then(Commands.literal("quitar")
-                        .requires(source -> source.hasPermission(2))
-                        .then(Commands.argument("item", ResourceLocationArgument.id())
-                                .suggests(ModCommands::suggestIngredients)
-                                .executes(ModCommands::removeIngredient)))
-                .then(Commands.literal("reiniciar")
-                        .requires(source -> source.hasPermission(2))
-                        .executes(ModCommands::resetRecipe));
-    }
-
     private static void say(CommandContext<CommandSourceStack> context, String text) {
         context.getSource().sendSuccess(() -> Component.literal(text), false);
-    }
-
-    // Autocompletado: todos los objetos registrados (incluidos los de otros mods).
-    private static CompletableFuture<Suggestions> suggestItems(
-            CommandContext<CommandSourceStack> context, SuggestionsBuilder builder) {
-        return SharedSuggestionProvider.suggestResource(
-                BuiltInRegistries.ITEM.keySet(), builder);
-    }
-
-    // Autocompletado: solo los ingredientes que ya estan en la receta.
-    private static CompletableFuture<Suggestions> suggestIngredients(
-            CommandContext<CommandSourceStack> context, SuggestionsBuilder builder) {
-        SpoonRecipe recipe = SpoonRecipe.get(context.getSource().getServer());
-        return SharedSuggestionProvider.suggestResource(recipe.getAll().keySet(), builder);
     }
 
     private static int showSouls(CommandContext<CommandSourceStack> context)
@@ -150,45 +106,12 @@ public class ModCommands {
         return Command.SINGLE_SUCCESS;
     }
 
-    private static int showRecipe(CommandContext<CommandSourceStack> context) {
-        SpoonRecipe recipe = SpoonRecipe.get(context.getSource().getServer());
-        say(context, "Receta de la Cuchara de Almas: " + recipe.describe());
-        return Command.SINGLE_SUCCESS;
-    }
-
-    private static int addIngredient(CommandContext<CommandSourceStack> context) {
-        ResourceLocation id = ResourceLocationArgument.getId(context, "item");
-        int amount = IntegerArgumentType.getInteger(context, "cantidad");
-
-        // Debe ser un objeto registrado (de Minecraft o de otro mod instalado).
-        if (!BuiltInRegistries.ITEM.containsKey(id)
-                || BuiltInRegistries.ITEM.get(id) == Items.AIR) {
-            say(context, "No existe ningun objeto con el ID " + id);
-            return 0;
-        }
-
-        SpoonRecipe recipe = SpoonRecipe.get(context.getSource().getServer());
-        recipe.set(id, amount);
-        say(context, "Receta actualizada: " + recipe.describe());
-        return Command.SINGLE_SUCCESS;
-    }
-
-    private static int removeIngredient(CommandContext<CommandSourceStack> context) {
-        ResourceLocation id = ResourceLocationArgument.getId(context, "item");
-        SpoonRecipe recipe = SpoonRecipe.get(context.getSource().getServer());
-
-        if (recipe.remove(id)) {
-            say(context, "Receta actualizada: " + recipe.describe());
-        } else {
-            say(context, id + " no estaba en la receta");
-        }
-        return Command.SINGLE_SUCCESS;
-    }
-
-    private static int resetRecipe(CommandContext<CommandSourceStack> context) {
-        SpoonRecipe recipe = SpoonRecipe.get(context.getSource().getServer());
-        recipe.reset();
-        say(context, "Receta reiniciada: " + recipe.describe());
+    // Abre el menu de la receta: editable solo para operadores.
+    private static int openRecipes(CommandContext<CommandSourceStack> context)
+            throws CommandSyntaxException {
+        ServerPlayer player = context.getSource().getPlayerOrException();
+        boolean canEdit = context.getSource().hasPermission(2);
+        RecipeMenu.open(player, canEdit);
         return Command.SINGLE_SUCCESS;
     }
 }
