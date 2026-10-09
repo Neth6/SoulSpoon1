@@ -4,6 +4,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
@@ -17,9 +18,9 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 
+import neth6.soulspoon.gui.ReviveMenu;
 import neth6.soulspoon.item.ModItems;
 import neth6.soulspoon.soul.AltarData;
-import neth6.soulspoon.soul.DeadPlayers;
 
 public class SoulAltarBlock extends Block {
     // Distancia maxima (en bloques) al spawn del mundo para poder colocarlo.
@@ -115,7 +116,7 @@ public class SoulAltarBlock extends Block {
         return InteractionResult.SUCCESS;
     }
 
-    // Clic derecho con un item en la mano.
+    // Clic derecho con un item en la mano: con la cuchara, abre el menu.
     @Override
     protected ItemInteractionResult useItemOn(ItemStack stack, BlockState state,
                                               Level level, BlockPos pos, Player player, InteractionHand hand,
@@ -124,14 +125,8 @@ public class SoulAltarBlock extends Block {
             return ItemInteractionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION;
         }
 
-        if (level instanceof ServerLevel serverLevel) {
-            DeadPlayers dead = DeadPlayers.get(serverLevel.getServer());
-            if (dead.getAll().isEmpty()) {
-                player.displayClientMessage(Component.literal("Nadie esta muerto"), false);
-            } else {
-                player.displayClientMessage(Component.literal(
-                        "Muertos: " + String.join(", ", dead.getAll().values())), false);
-            }
+        if (player instanceof ServerPlayer serverPlayer) {
+            ReviveMenu.open(serverPlayer);
         }
         return ItemInteractionResult.sidedSuccess(level.isClientSide);
     }
