@@ -21,6 +21,7 @@ import net.minecraft.world.phys.BlockHitResult;
 import neth6.soulspoon.gui.ReviveMenu;
 import neth6.soulspoon.item.ModItems;
 import neth6.soulspoon.soul.AltarData;
+import neth6.soulspoon.soul.ForgeManager;
 
 public class SoulAltarBlock extends Block {
     // Distancia maxima (en bloques) al spawn del mundo para poder colocarlo.
@@ -105,13 +106,17 @@ public class SoulAltarBlock extends Block {
         }
     }
 
-    // Clic derecho con la mano vacia (o con un item que no es la cuchara).
+    // Clic derecho con la mano vacia (o con un item que no es la cuchara):
+    // normal = ver la receta, Shift = forjar la cuchara.
     @Override
     protected InteractionResult useWithoutItem(BlockState state, Level level,
                                                BlockPos pos, Player player, BlockHitResult hit) {
-        if (!level.isClientSide) {
-            player.displayClientMessage(Component.literal(
-                    "Necesitas la Cuchara de Almas para usar el altar"), true);
+        if (player instanceof ServerPlayer serverPlayer) {
+            if (player.isShiftKeyDown()) {
+                ForgeManager.tryForge(serverPlayer);
+            } else {
+                ForgeManager.showRecipe(serverPlayer);
+            }
         }
         return InteractionResult.SUCCESS;
     }
