@@ -1,6 +1,7 @@
 package neth6.soulspoon.event;
 
 import net.fabricmc.fabric.api.entity.event.v1.ServerLivingEntityEvents;
+import net.fabricmc.fabric.api.entity.event.v1.ServerPlayerEvents;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
@@ -10,6 +11,7 @@ import net.minecraft.world.entity.monster.Enemy;
 
 import neth6.soulspoon.soul.DeadPlayers;
 import neth6.soulspoon.soul.ProtectedZone;
+import neth6.soulspoon.soul.ReviveEffects;
 
 public class ModEvents {
     // true = modo prueba: el jugador puede volver a entrar aunque este muerto.
@@ -34,6 +36,21 @@ public class ModEvents {
             if (isDead && !TEST_MODE) {
                 handler.disconnect(Component.literal(
                         "Estas muerto. Un companero debe revivirte."));
+            }
+        });
+
+        // Cuando un jugador reaparece: vuelve al altar con efectos.
+        ServerPlayerEvents.AFTER_RESPAWN.register((oldPlayer, newPlayer, alive) -> {
+            // "alive" es true al volver del End: ese caso no es una resurreccion.
+            if (alive) {
+                return;
+            }
+            if (ReviveEffects.returnToAltar(newPlayer)) {
+                newPlayer.displayClientMessage(Component.literal(
+                        "Has vuelto a la vida en el altar"), true);
+                newPlayer.server.getPlayerList().broadcastSystemMessage(
+                        Component.literal(newPlayer.getName().getString()
+                                + " ha regresado de entre los muertos"), false);
             }
         });
 

@@ -16,6 +16,7 @@ import net.minecraft.world.item.Items;
 
 import neth6.soulspoon.item.ModItems;
 import neth6.soulspoon.soul.DeadPlayers;
+import neth6.soulspoon.soul.ReviveEffects;
 import neth6.soulspoon.soul.ReviveManager;
 import neth6.soulspoon.soul.SoulManager;
 
@@ -95,9 +96,12 @@ public class ReviveMenu extends ChestMenu {
                 if (!player.isCreative()) {
                     spoon.shrink(1);
                 }
+                ReviveEffects.altarPulse(player);
+                player.server.getPlayerList().broadcastSystemMessage(
+                        Component.literal(player.getName().getString()
+                                + " uso la Cuchara de Almas y revivio a " + name), false);
                 player.displayClientMessage(Component.literal(
-                        name + " fue revivido. Te quedan "
-                                + SoulManager.getSouls(player) + " almas"), false);
+                        "Te quedan " + SoulManager.getSouls(player) + " almas"), true);
             }
             case NO_SOULS -> player.displayClientMessage(Component.literal(
                     "No te quedan almas para revivir"), true);
