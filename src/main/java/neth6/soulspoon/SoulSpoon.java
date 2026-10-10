@@ -6,8 +6,10 @@ import net.minecraft.resources.ResourceLocation;
 
 import neth6.soulspoon.block.ModBlocks;
 import neth6.soulspoon.command.ModCommands;
+import neth6.soulspoon.command.RuleCommands;
 import neth6.soulspoon.event.ModEvents;
 import neth6.soulspoon.item.ModItems;
+import neth6.soulspoon.rule.ModRules;
 import neth6.soulspoon.soul.SoulManager;
 
 import org.slf4j.Logger;
@@ -25,6 +27,8 @@ public class SoulSpoon implements ModInitializer {
         SoulManager.initialize();
         ModCommands.initialize();
         ModEvents.initialize();
+        ModRules.initialize();
+        RuleCommands.initialize();
 
         LOGGER.info("SoulSpoon cargado: la Cuchara de Almas esta registrada");
     }
