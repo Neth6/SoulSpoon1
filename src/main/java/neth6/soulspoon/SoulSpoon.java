@@ -11,6 +11,7 @@ import neth6.soulspoon.event.ModEvents;
 import neth6.soulspoon.item.ModItems;
 import neth6.soulspoon.rule.ModRules;
 import neth6.soulspoon.soul.SoulManager;
+import neth6.soulspoon.wheel.ModWheel;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,6 +23,7 @@ public class SoulSpoon implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        ModWheel.initialize();
         ModItems.initialize();
         ModBlocks.initialize();
         SoulManager.initialize();
