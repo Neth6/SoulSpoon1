@@ -26,9 +26,6 @@ public class WheelMenu extends ChestMenu {
     private static final int FIRST_COLOR_SLOT = 10;
     private static final int SPIN_SLOT = 22;
 
-    // Giros en marcha (uno por jugador que esta girando).
-    private static final List<SpinTask> TASKS = new ArrayList<>();
-
     private final SimpleContainer container;
     private final MinecraftServer server;
     private boolean spinning = false;
@@ -52,7 +49,7 @@ public class WheelMenu extends ChestMenu {
 
     // Llamado cada tick desde ModWheel.
     public static void tickSpins() {
-        TASKS.removeIf(SpinTask::tick);
+        // Ya no hay giro por pasos: la animacion la maneja WheelAnim.
     }
 
     // Dibuja el menu. "pointer" es el color marcado por la flecha (-1 = ninguno).
@@ -126,6 +123,7 @@ public class WheelMenu extends ChestMenu {
         }
     }
 
+    // Giro instantaneo: se cierra el menu y la animacion del color empieza al momento.
     private void startSpin(ServerPlayer player) {
         List<WheelColor> enabled = WheelData.get(server).enabledColors();
         if (enabled.isEmpty()) {
@@ -133,68 +131,16 @@ public class WheelMenu extends ChestMenu {
             return;
         }
         spinning = true;
-        // Cuantos saltos da la flecha: define en que color cae.
-        int total = 20 + player.getRandom().nextInt(enabled.size());
-        TASKS.add(new SpinTask(player, this, enabled, total));
-    }
-
-    // Un giro: la flecha salta de color en color, cada vez mas despacio.
-    private static class SpinTask {
-        private final ServerPlayer player;
-        private final WheelMenu menu;
-        private final List<WheelColor> enabled;
-        private final int total;
-
-        private int step = 0;
-        private int wait = 0;
-        private int position = 0;
-        private int pause = 0;
-        private WheelColor result = null;
-
-        SpinTask(ServerPlayer player, WheelMenu menu, List<WheelColor> enabled, int total) {
-            this.player = player;
-            this.menu = menu;
-            this.enabled = enabled;
-            this.total = total;
-        }
-
-        // Devuelve true cuando el giro termino (o se cancelo).
-        boolean tick() {
-            // Si el jugador cerro el menu o salio, se cancela.
-            if (player.hasDisconnected() || player.containerMenu != menu) {
-                return true;
+        WheelColor landed = enabled.get(player.getRandom().nextInt(enabled.size()));
+        player.closeContainer();
+        player.playNotifySound(SoundEvents.EXPERIENCE_ORB_PICKUP, SoundSource.MASTER, 1.0f, 1.0f);
+        WheelAnim.play(server, landed, () -> {
+            WheelRegistry.broadcast(server, landed,
+                    landed.colorName().toUpperCase() + ": " + landed.title(),
+                    landed.description());
+            if (!player.hasDisconnected()) {
+                EntryMenu.open(player, landed);
             }
-
-            // Ya cayo: esperamos un momento y abrimos la lista de cambios.
-            if (result != null) {
-                pause--;
-                if (pause <= 0) {
-                    EntryMenu.open(player, result);
-                    return true;
-                }
-                return false;
-            }
-
-            wait--;
-            if (wait > 0) {
-                return false;
-            }
-
-            position = (position + 1) % enabled.size();
-            step++;
-            menu.refresh(enabled.get(position).ordinal());
-            player.playNotifySound(SoundEvents.EXPERIENCE_ORB_PICKUP,
-                    SoundSource.MASTER, 0.6f, 0.8f + step * 0.02f);
-            wait = 2 + step / 3;
-
-            if (step >= total) {
-                result = enabled.get(position);
-                pause = 50;
-                WheelRegistry.broadcast(player.server, result,
-                        result.colorName().toUpperCase() + ": " + result.title(),
-                        result.description());
-            }
-            return false;
-        }
+        });
     }
 }

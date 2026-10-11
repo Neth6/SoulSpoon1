@@ -9,6 +9,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 
+import neth6.soulspoon.codex.RuletaCodex;
 import neth6.soulspoon.rule.Rule;
 import neth6.soulspoon.rule.RuleData;
 
@@ -40,6 +41,7 @@ public class WheelRegistry {
     }
 
     // Anuncio para todos: titulo grande, subtitulo, mensaje en el chat y sonido.
+    // Ademas queda guardado en el Codex (historial de la ruleta).
     public static void broadcast(MinecraftServer server, WheelColor color,
                                  String title, String subtitle) {
         Component titleText = Component.literal(title).withStyle(color.format());
@@ -56,6 +58,8 @@ public class WheelRegistry {
                         .withStyle(color.format())
                         .append(Component.literal(title + ": " + subtitle)),
                 false);
+
+        RuletaCodex.record(server, color, title, subtitle);
     }
 
     // Cambios que ya existen. Aqui se agregan los nuevos.
@@ -76,14 +80,15 @@ public class WheelRegistry {
                 server -> broadcast(server, WheelColor.VERDE, "Eon descubrio la grieta",
                         "X: 698 | Z: -145. Hace falta un Creeper Nuclear y armadura de diamante"));
 
-        // AZUL: misiones principales.
-        register(WheelColor.AZUL, "dia1", "Dia 1: Aldeano Phora",
-                "Pica y recoge un Aldeano Phora de Recursos",
-                server -> broadcast(server, WheelColor.AZUL, "Mision del Dia 1",
-                        "Pica y recoge un Aldeano Phora de Recursos dentro de un Cubo Phora"));
-        register(WheelColor.AZUL, "dia2", "Dia 2: Bolsa Primitiva",
-                "Crea una Bolsa Primitiva",
-                server -> broadcast(server, WheelColor.AZUL, "Mision del Dia 2",
-                        "Crea una Bolsa Primitiva (receta con la tecla G)"));
+        // AZUL: misiones principales (dia1, dia2, dia5, dia7, dia8, dia9, dia15).
+        // Al caer, la mision se agrega al Codex (categoria "Ruleta") y se anuncia.
+        for (String id : RuletaCodex.mainIds()) {
+            register(WheelColor.AZUL, id, RuletaCodex.mainTitle(id), RuletaCodex.mainDescription(id),
+                    server -> {
+                        RuletaCodex.addMission(server, id);
+                        broadcast(server, WheelColor.AZUL, "Mision: " + RuletaCodex.mainTitle(id),
+                                RuletaCodex.mainDescription(id));
+                    });
+        }
     }
 }

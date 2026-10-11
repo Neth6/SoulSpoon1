@@ -1,4 +1,12 @@
 {
-  "item.soulspoon.soul_spoon": "Cuchara de Almas",
-  "block.soulspoon.soul_altar": "Altar de Almas"
+  "key.soulspoon.codex": "Abrir Codex de aventuras",
+  "category.soulspoon": "SoulSpoon",
+  "entity.soulspoon.creeper_nuclear": "Creeper Nuclear",
+  "item.soulspoon.creeper_nuclear_spawn_egg": "Huevo de Creeper Nuclear",
+  "entity.soulspoon.plumosaurio": "Plumosaurio",
+  "item.soulspoon.plumosaurio_spawn_egg": "Huevo de Plumosaurio",
+  "entity.soulspoon.bomba_warden": "Bomba Warden",
+  "item.soulspoon.bomba_warden_spawn_egg": "Huevo de Bomba Warden",
+  "entity.soulspoon.dromoraptor_rojo": "Dromoraptor Rojo",
+  "item.soulspoon.dromoraptor_rojo_spawn_egg": "Huevo de Dromoraptor Rojo"
 }

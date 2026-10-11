@@ -1,0 +1,14 @@
+SoulSpoon - Codex Fase 1 + 2 (MC 1.21.1, Fabric, Mojang mappings)
+
+Copia la carpeta "src" encima de la de tu proyecto (respeta rutas). Este zip contiene TODO
+(Fase 1 + Fase 2), asi que puedes sobrescribir lo de la Fase 1.
+NUEVOS:    codex/CodexContent, codex/ContentManager, codex/QuestService, codex/RecipeFilter,
+           network/CodexPackets, client/ClientCodexCache
+REEMPLAZA: codex/CodexSavedData, SoulSpoon, client/SoulSpoonClient,
+           client/CodexScreen, client/CodexEditorScreen
+Contenido editable: config/soulspoon/codex.json
+  (si ya lo generaste con la Fase 1, borra el archivo o anade "daily" a mano para ver la diaria de ejemplo)
+
+Fase 2b: mobs con "entity" (modelo/descubrimiento) y "customName" (descubrir solo al matar uno con ese nombre).
+config_ejemplo/soulspoon/codex.json -> copialo a config/soulspoon/codex.json (con el juego CERRADO) para cargar
+los cambios del 21-22 Sep y los mobs nuevos. Reemplaza el codex.json actual.

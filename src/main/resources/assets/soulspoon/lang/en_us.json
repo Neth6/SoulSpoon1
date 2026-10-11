@@ -1,4 +1,12 @@
 {
   "item.soulspoon.soul_spoon": "Soul Spoon",
-  "block.soulspoon.soul_altar": "Soul Altar"
+  "block.soulspoon.soul_altar": "Soul Altar",
+  "entity.soulspoon.creeper_nuclear": "Creeper Nuclear",
+  "item.soulspoon.creeper_nuclear_spawn_egg": "Creeper Nuclear Spawn Egg",
+  "entity.soulspoon.plumosaurio": "Plumosaurio",
+  "item.soulspoon.plumosaurio_spawn_egg": "Plumosaurio Spawn Egg",
+  "entity.soulspoon.bomba_warden": "Bomba Warden",
+  "item.soulspoon.bomba_warden_spawn_egg": "Bomba Warden Spawn Egg",
+  "entity.soulspoon.dromoraptor_rojo": "Dromoraptor Rojo",
+  "item.soulspoon.dromoraptor_rojo_spawn_egg": "Dromoraptor Rojo Spawn Egg"
 }

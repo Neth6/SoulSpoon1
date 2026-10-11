@@ -1,0 +1,5638 @@
+{
+ "providers": [
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_00.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue000"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_01.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue001"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_02.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue002"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_03.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue003"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_04.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue004"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_05.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue005"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_06.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue006"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_07.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue007"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_08.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue008"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_09.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue009"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_10.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue00a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_11.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue00b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_12.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue00c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_13.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue00d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_14.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue00e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_15.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue00f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_16.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue010"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_17.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue011"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_18.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue012"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_19.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue013"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_20.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue014"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_21.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue015"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_22.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue016"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_23.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue017"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_24.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue018"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_25.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue019"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_26.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue01a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_27.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue01b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_28.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue01c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_29.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue01d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_30.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue01e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_31.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue01f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_32.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue020"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_33.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue021"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_34.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue022"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_35.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue023"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_36.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue024"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_37.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue025"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_38.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue026"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_39.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue027"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_40.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue028"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_41.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue029"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_42.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue02a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_43.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue02b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_44.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue02c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_45.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue02d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_46.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue02e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_47.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue02f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_48.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue030"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_49.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue031"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_50.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue032"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_51.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue033"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_52.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue034"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_53.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue035"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_54.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue036"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_55.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue037"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_56.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue038"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_57.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue039"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_58.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue03a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_59.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue03b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rojo_final.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue03f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_00.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue040"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_01.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue041"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_02.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue042"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_03.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue043"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_04.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue044"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_05.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue045"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_06.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue046"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_07.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue047"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_08.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue048"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_09.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue049"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_10.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue04a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_11.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue04b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_12.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue04c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_13.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue04d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_14.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue04e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_15.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue04f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_16.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue050"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_17.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue051"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_18.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue052"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_19.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue053"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_20.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue054"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_21.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue055"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_22.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue056"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_23.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue057"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_24.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue058"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_25.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue059"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_26.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue05a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_27.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue05b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_28.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue05c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_29.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue05d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_30.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue05e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_31.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue05f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_32.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue060"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_33.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue061"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_34.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue062"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_35.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue063"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_36.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue064"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_37.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue065"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_38.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue066"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_39.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue067"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_40.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue068"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_41.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue069"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_42.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue06a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_43.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue06b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_44.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue06c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_45.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue06d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_46.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue06e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_47.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue06f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_48.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue070"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_49.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue071"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_50.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue072"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_51.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue073"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_52.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue074"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_53.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue075"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_54.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue076"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_55.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue077"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_56.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue078"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_57.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue079"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/morado_final.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue07f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_00.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue080"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_01.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue081"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_02.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue082"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_03.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue083"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_04.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue084"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_05.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue085"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_06.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue086"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_07.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue087"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_08.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue088"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_09.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue089"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_10.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue08a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_11.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue08b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_12.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue08c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_13.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue08d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_14.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue08e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_15.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue08f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_16.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue090"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_17.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue091"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_18.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue092"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_19.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue093"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_20.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue094"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_21.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue095"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_22.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue096"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_23.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue097"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_24.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue098"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_25.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue099"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_26.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue09a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_27.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue09b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_28.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue09c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_29.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue09d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_30.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue09e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_31.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue09f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_32.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0a0"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_33.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0a1"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_34.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0a2"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_35.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0a3"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_36.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0a4"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_37.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0a5"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_38.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0a6"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_39.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0a7"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_40.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0a8"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_41.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0a9"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_42.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0aa"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_43.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0ab"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_44.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0ac"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_45.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0ad"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_46.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0ae"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_47.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0af"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_48.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0b0"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_49.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0b1"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_50.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0b2"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_51.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0b3"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_52.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0b4"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_53.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0b5"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_54.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0b6"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_55.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0b7"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/verde_final.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0bf"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_00.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0c0"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_01.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0c1"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_02.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0c2"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_03.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0c3"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_04.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0c4"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_05.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0c5"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_06.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0c6"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_07.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0c7"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_08.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0c8"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_09.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0c9"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_10.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0ca"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_11.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0cb"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_12.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0cc"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_13.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0cd"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_14.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0ce"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_15.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0cf"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_16.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0d0"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_17.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0d1"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_18.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0d2"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_19.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0d3"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_20.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0d4"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_21.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0d5"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_22.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0d6"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_23.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0d7"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_24.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0d8"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_25.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0d9"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_26.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0da"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_27.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0db"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_28.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0dc"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_29.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0dd"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_30.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0de"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_31.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0df"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_32.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0e0"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_33.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0e1"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_34.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0e2"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_35.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0e3"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_36.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0e4"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_37.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0e5"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_38.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0e6"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_39.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0e7"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_40.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0e8"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_41.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0e9"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_42.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0ea"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_43.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0eb"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_44.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0ec"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_45.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0ed"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_46.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0ee"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_47.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0ef"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_48.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0f0"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_49.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0f1"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_50.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0f2"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_51.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0f3"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_52.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0f4"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_53.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0f5"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_54.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0f6"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_55.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0f7"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_56.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0f8"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_57.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0f9"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_58.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0fa"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/amarillo_final.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue0ff"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_00.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue100"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_01.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue101"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_02.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue102"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_03.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue103"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_04.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue104"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_05.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue105"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_06.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue106"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_07.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue107"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_08.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue108"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_09.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue109"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_10.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue10a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_11.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue10b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_12.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue10c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_13.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue10d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_14.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue10e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_15.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue10f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_16.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue110"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_17.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue111"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_18.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue112"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_19.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue113"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_20.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue114"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_21.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue115"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_22.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue116"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_23.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue117"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_24.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue118"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_25.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue119"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_26.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue11a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_27.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue11b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_28.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue11c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_29.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue11d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_30.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue11e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_31.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue11f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_32.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue120"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_33.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue121"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_34.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue122"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_35.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue123"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_36.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue124"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_37.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue125"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_38.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue126"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_39.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue127"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_40.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue128"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_41.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue129"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_42.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue12a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_43.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue12b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_44.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue12c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_45.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue12d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_46.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue12e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_47.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue12f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_48.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue130"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_49.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue131"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_50.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue132"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_51.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue133"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_52.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue134"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_53.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue135"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_54.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue136"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_55.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue137"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/cian_final.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue13f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_00.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue140"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_01.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue141"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_02.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue142"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_03.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue143"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_04.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue144"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_05.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue145"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_06.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue146"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_07.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue147"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_08.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue148"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_09.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue149"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_10.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue14a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_11.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue14b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_12.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue14c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_13.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue14d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_14.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue14e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_15.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue14f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_16.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue150"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_17.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue151"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_18.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue152"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_19.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue153"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_20.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue154"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_21.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue155"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_22.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue156"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_23.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue157"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_24.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue158"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_25.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue159"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_26.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue15a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_27.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue15b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_28.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue15c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_29.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue15d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_30.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue15e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_31.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue15f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_32.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue160"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_33.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue161"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_34.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue162"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_35.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue163"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_36.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue164"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_37.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue165"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_38.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue166"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_39.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue167"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_40.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue168"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_41.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue169"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_42.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue16a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_43.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue16b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_44.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue16c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_45.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue16d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_46.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue16e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_47.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue16f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_48.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue170"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_49.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue171"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_50.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue172"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_51.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue173"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_52.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue174"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_53.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue175"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_54.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue176"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_55.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue177"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_56.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue178"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_57.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue179"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_58.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue17a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/azul_final.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue17f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_00.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue180"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_01.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue181"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_02.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue182"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_03.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue183"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_04.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue184"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_05.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue185"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_06.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue186"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_07.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue187"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_08.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue188"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_09.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue189"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_10.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue18a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_11.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue18b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_12.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue18c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_13.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue18d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_14.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue18e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_15.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue18f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_16.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue190"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_17.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue191"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_18.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue192"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_19.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue193"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_20.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue194"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_21.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue195"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_22.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue196"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_23.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue197"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_24.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue198"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_25.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue199"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_26.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue19a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_27.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue19b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_28.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue19c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_29.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue19d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_30.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue19e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_31.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue19f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_32.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1a0"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_33.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1a1"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_34.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1a2"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_35.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1a3"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_36.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1a4"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_37.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1a5"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_38.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1a6"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_39.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1a7"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_40.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1a8"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_41.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1a9"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_42.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1aa"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_43.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1ab"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_44.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1ac"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_45.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1ad"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_46.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1ae"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_47.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1af"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_48.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1b0"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_49.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1b1"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_50.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1b2"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_51.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1b3"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_52.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1b4"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_53.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1b5"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_54.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1b6"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_55.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1b7"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_56.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1b8"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_57.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1b9"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_58.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1ba"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/naranja_final.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1bf"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_00.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1c0"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_01.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1c1"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_02.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1c2"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_03.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1c3"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_04.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1c4"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_05.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1c5"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_06.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1c6"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_07.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1c7"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_08.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1c8"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_09.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1c9"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_10.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1ca"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_11.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1cb"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_12.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1cc"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_13.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1cd"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_14.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1ce"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_15.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1cf"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_16.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1d0"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_17.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1d1"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_18.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1d2"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_19.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1d3"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_20.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1d4"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_21.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1d5"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_22.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1d6"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_23.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1d7"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_24.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1d8"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_25.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1d9"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_26.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1da"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_27.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1db"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_28.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1dc"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_29.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1dd"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_30.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1de"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_31.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1df"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_32.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1e0"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_33.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1e1"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_34.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1e2"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_35.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1e3"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_36.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1e4"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_37.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1e5"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_38.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1e6"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_39.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1e7"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_40.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1e8"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_41.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1e9"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_42.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1ea"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_43.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1eb"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_44.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1ec"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_45.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1ed"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_46.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1ee"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/death_final.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue1ff"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/gui_final.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue23f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_00.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue240"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_01.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue241"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_02.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue242"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_03.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue243"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_04.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue244"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_05.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue245"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_06.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue246"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_07.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue247"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_08.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue248"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_09.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue249"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_10.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue24a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_11.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue24b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_12.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue24c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_13.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue24d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_14.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue24e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_15.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue24f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_16.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue250"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_17.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue251"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_18.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue252"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_19.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue253"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_20.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue254"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_21.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue255"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_22.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue256"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_23.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue257"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_24.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue258"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_25.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue259"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_26.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue25a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_27.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue25b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_28.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue25c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_29.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue25d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_30.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue25e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_31.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue25f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_32.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue260"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_33.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue261"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_34.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue262"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_35.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue263"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_36.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue264"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_37.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue265"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_38.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue266"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_39.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue267"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_40.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue268"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_41.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue269"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_42.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue26a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_43.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue26b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_44.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue26c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_45.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue26d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_46.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue26e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_47.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue26f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_48.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue270"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_49.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue271"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/nutria_final.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue27f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_00.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue280"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_01.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue281"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_02.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue282"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_03.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue283"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_04.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue284"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_05.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue285"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_06.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue286"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_07.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue287"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_08.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue288"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_09.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue289"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_10.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue28a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_11.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue28b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_12.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue28c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_13.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue28d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_14.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue28e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_15.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue28f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_16.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue290"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_17.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue291"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_18.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue292"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_19.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue293"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_20.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue294"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_21.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue295"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_22.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue296"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_23.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue297"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_24.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue298"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_25.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue299"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_26.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue29a"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_27.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue29b"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_28.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue29c"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_29.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue29d"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_30.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue29e"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_31.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue29f"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_32.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2a0"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_33.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2a1"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_34.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2a2"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_35.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2a3"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_36.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2a4"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_37.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2a5"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_38.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2a6"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_39.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2a7"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_40.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2a8"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_41.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2a9"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_42.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2aa"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_43.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2ab"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_44.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2ac"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_45.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2ad"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_46.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2ae"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_47.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2af"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_48.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2b0"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_49.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2b1"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_50.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2b2"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_51.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2b3"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_52.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2b4"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_53.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2b5"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/reviil_final.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2bf"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_00.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2c0"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_01.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2c1"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_02.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2c2"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_03.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2c3"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_04.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2c4"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_05.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2c5"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_06.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2c6"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_07.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2c7"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_08.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2c8"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_09.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2c9"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_10.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2ca"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_11.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2cb"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_12.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2cc"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_13.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2cd"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_14.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2ce"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_15.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2cf"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_16.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2d0"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_17.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2d1"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_18.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2d2"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_19.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2d3"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_20.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2d4"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_21.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2d5"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_22.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2d6"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_23.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2d7"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_24.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2d8"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_25.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2d9"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_26.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2da"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_27.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2db"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_28.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2dc"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_29.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2dd"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_30.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2de"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_31.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2df"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_32.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2e0"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_33.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2e1"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_34.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2e2"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_35.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2e3"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_36.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2e4"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_37.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2e5"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_38.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2e6"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_39.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2e7"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_40.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2e8"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_41.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2e9"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_42.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2ea"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_43.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2eb"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_44.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2ec"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_45.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2ed"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_46.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2ee"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_47.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2ef"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_48.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2f0"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_49.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2f1"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_50.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2f2"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_51.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2f3"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_52.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2f4"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_53.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2f5"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_54.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2f6"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_55.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2f7"
+   ]
+  },
+  {
+   "type": "bitmap",
+   "file": "soulspoon:wheel/rosa_final.png",
+   "ascent": 25,
+   "height": 56,
+   "chars": [
+    "\ue2ff"
+   ]
+  }
+ ]
+}

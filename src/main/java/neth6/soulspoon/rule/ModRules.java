@@ -35,10 +35,10 @@ import java.util.Map;
 import java.util.UUID;
 
 public class ModRules {
-    // Evita aplicar el multiplicador de dano dos veces seguidas.
+
     private static boolean applyingDamage = false;
 
-    // Aire que tenia cada jugador en el tick anterior (para la regla del ahogo).
+
     private static final Map<UUID, Integer> LAST_AIR = new HashMap<>();
 
     public static void initialize() {
@@ -51,7 +51,7 @@ public class ModRules {
             if (multiplier == 1.0f) {
                 return true;
             }
-            // Cancelamos el golpe original y lo repetimos con el dano multiplicado.
+
             applyingDamage = true;
             try {
                 player.hurt(source, amount * multiplier);
@@ -63,7 +63,7 @@ public class ModRules {
 
         ServerTickEvents.END_SERVER_TICK.register(ModRules::onServerTick);
 
-        // Regla "brotes": los items de brote que aparecen en el mundo desaparecen.
+
         ServerEntityEvents.ENTITY_LOAD.register((entity, level) -> {
             if (entity instanceof ItemEntity item
                     && item.getItem().is(ItemTags.SAPLINGS)
@@ -72,7 +72,7 @@ public class ModRules {
             }
         });
 
-        // Regla "mecanismos": usar botones o puertas mata.
+
         UseBlockCallback.EVENT.register((player, level, hand, hit) -> {
             if (level.isClientSide || !(player instanceof ServerPlayer serverPlayer)) {
                 return InteractionResult.PASS;
@@ -88,7 +88,7 @@ public class ModRules {
         });
     }
 
-    // ---------- Dano ----------
+
 
     private static float damageMultiplier(ServerPlayer player, DamageSource source,
                                           float amount, RuleData rules) {
@@ -116,7 +116,7 @@ public class ModRules {
         return multiplier;
     }
 
-    // La ender pearl hace 5 de dano de tipo caida justo al teletransportarte.
+
     private static boolean isPearlDamage(ServerPlayer player, DamageSource source, float amount) {
         if (source.typeHolder().is(ResourceLocation.withDefaultNamespace("ender_pearl"))) {
             return true;
@@ -127,7 +127,7 @@ public class ModRules {
                 && player.getCooldowns().isOnCooldown(Items.ENDER_PEARL);
     }
 
-    // ---------- Tick ----------
+
 
     private static void onServerTick(MinecraftServer server) {
         if (server.getPlayerList().getPlayers().isEmpty()) {
@@ -164,7 +164,7 @@ public class ModRules {
         }
     }
 
-    // Aire x5 mas rapido: por cada punto que baja, bajamos 4 mas.
+
     private static void fastAir(ServerPlayer player, boolean on) {
         UUID id = player.getUUID();
         if (!on) {
@@ -174,14 +174,14 @@ public class ModRules {
         int air = player.getAirSupply();
         Integer previous = LAST_AIR.get(id);
         if (previous != null && air < previous && air > -20) {
-            // Nunca bajamos de -19: en -20 Minecraft aplica el dano de ahogo.
+
             air = Math.max(-19, air - (previous - air) * 4);
             player.setAirSupply(air);
         }
         LAST_AIR.put(id, air);
     }
 
-    // Las manzanas doradas dan absorcion de 2 minutos; el totem solo 5 segundos.
+
     private static void removeAbsorption(ServerPlayer player) {
         MobEffectInstance effect = player.getEffect(MobEffects.ABSORPTION);
         if (effect != null && effect.getDuration() > 1000) {
@@ -199,7 +199,7 @@ public class ModRules {
         }
     }
 
-    // Puertas y trampillas pegadas al agua se convierten en agua.
+
     private static void doorsInWater(ServerPlayer player) {
         Level level = player.level();
         BlockPos[] spots = {player.blockPosition(), BlockPos.containing(player.getEyePosition())};
@@ -224,7 +224,7 @@ public class ModRules {
         return false;
     }
 
-    // ---------- Comida podrida ----------
+
 
     private static boolean isRottable(ItemStack stack) {
         return !stack.isEmpty()
@@ -241,7 +241,7 @@ public class ModRules {
         }
     }
 
-    // Cofres, barriles, hornos, etc. en los chunks cercanos al jugador.
+
     private static void rotNearbyContainers(ServerPlayer player) {
         ServerLevel level = player.serverLevel();
         int chunkX = player.blockPosition().getX() >> 4;
@@ -262,7 +262,7 @@ public class ModRules {
         }
     }
 
-    // ---------- Mecanismos letales ----------
+
 
     private static void killPlayer(ServerPlayer player) {
         if (player.isCreative() || player.isSpectator()) {
