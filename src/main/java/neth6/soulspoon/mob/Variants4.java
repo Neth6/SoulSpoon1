@@ -1,8 +1,11 @@
 package neth6.soulspoon.mob;
 
+
+import neth6.soulspoon.entity.GeoMobs;
 import neth6.soulspoon.SoulSpoon;
 import neth6.soulspoon.entity.Gates;
 import neth6.soulspoon.entity.ModEntities;
+import neth6.soulspoon.fx.Splat;
 import neth6.soulspoon.world.WorldRules;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.registries.Registries;
@@ -14,11 +17,14 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EntitySelector;
 import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.monster.Creeper;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.biome.Biomes;
+import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.phys.Vec3;
 
 // Parte 4: variantes de los mobs con modelo propio. Se registran en Variants (para el huevo y los hooks).
@@ -33,6 +39,19 @@ public final class Variants4 {
             return;
         }
         done = true;
+
+        // [Creeper Pastel] al explotar mancha la pantalla de pastel a los jugadores cercanos.
+        Variants.register(new Variant("creeper_pastel", "Creeper Pastel", GeoMobs.CREEPER_PASTEL)
+                .end((mob, level) -> {
+                    if (!(mob instanceof Creeper creeper) || creeper.getSwellDir() <= 0) {
+                        return;
+                    }
+                    for (ServerPlayer player : level.players()) {
+                        if (player.distanceToSqr(mob) <= 100.0) {
+                            Splat.show(player, "pastel", 100);
+                        }
+                    }
+                }));
 
         // [50] Dactylo Adulto: pesadillas del cielo con insomnia alta.
         Variants.register(new Variant("dactylo_adulto", "Dáctylo Adulto", ModEntities.DACTYLO_ADULTO)
@@ -155,9 +174,8 @@ public final class Variants4 {
         MinecraftServer server = player.server;
         ServerLevel limbo = server.getLevel(ResourceKey.create(Registries.DIMENSION, SoulSpoon.id("limbo")));
         if (limbo != null) {
-            var spawn = limbo.getSharedSpawnPos();
-            player.teleportTo(limbo, spawn.getX() + 0.5, spawn.getY(), spawn.getZ() + 0.5,
-                    player.getYRot(), player.getXRot());
+            var top = limbo.getHeightmapPos(Heightmap.Types.MOTION_BLOCKING, new net.minecraft.core.BlockPos(0, 0, 0));
+            player.teleportTo(limbo, 0.5, top.getY() + 1, 0.5, player.getYRot(), player.getXRot());
         } else {
             player.addEffect(new MobEffectInstance(MobEffects.DARKNESS, 200, 0));
             player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 200, 1));

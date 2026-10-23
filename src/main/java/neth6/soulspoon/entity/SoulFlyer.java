@@ -16,10 +16,16 @@ import net.minecraft.world.entity.ai.navigation.PathNavigation;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
+import software.bernie.geckolib.animatable.GeoEntity;
+import software.bernie.geckolib.animatable.instance.AnimatableInstanceCache;
+import software.bernie.geckolib.animation.AnimatableManager;
+import software.bernie.geckolib.util.GeckoLibUtil;
 import net.minecraft.world.level.block.state.BlockState;
 
 // Mob volador generico de la Parte 4 (Dactylo Adulto, fantasmas, Ojo Volador).
-public class SoulFlyer extends Monster implements Gated {
+public class SoulFlyer extends Monster implements Gated, GeoEntity {
+    private final AnimatableInstanceCache geoCache = GeckoLibUtil.createInstanceCache(this);
+
     private boolean gateOpen;
 
     public SoulFlyer(EntityType<? extends SoulFlyer> type, Level level) {
@@ -76,5 +82,15 @@ public class SoulFlyer extends Monster implements Gated {
     @Override
     public void setGateOpen(boolean open) {
         this.gateOpen = open;
+    }
+
+    @Override
+    public void registerControllers(AnimatableManager.ControllerRegistrar controllers) {
+        GeoAnim.move(this, controllers);
+    }
+
+    @Override
+    public AnimatableInstanceCache getAnimatableInstanceCache() {
+        return geoCache;
     }
 }

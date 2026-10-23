@@ -5,6 +5,7 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.world.entity.Entity;
 import neth6.soulspoon.SoulSpoon;
 import neth6.soulspoon.entity.ModEntities;
+import neth6.soulspoon.casino.ModCasino;
 import software.bernie.geckolib.animatable.GeoEntity;
 import software.bernie.geckolib.model.DefaultedEntityGeoModel;
 import software.bernie.geckolib.renderer.GeoEntityRenderer;
@@ -29,6 +30,9 @@ public final class ModEntityRenderers {
     }
 
     public static void register() {
+        GeoMobsClient.register();
+        EntityRendererRegistry.register(ModCasino.CASINO,
+                ctx -> new ModGeoRenderer<>(ctx, "casino", 0.8f, 1.0f));
         EntityRendererRegistry.register(ModEntities.NUCLEAR_CREEPER,
                 ctx -> new ModGeoRenderer<>(ctx, "creeper_nuclear", 0.6f, 1.0f));
         EntityRendererRegistry.register(ModEntities.PLUMOSAURIO,

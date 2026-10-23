@@ -28,7 +28,6 @@ public final class ModEntitiesClient {
         renderer(ModEntities.CEREBRO_ROJO,      "cerebro_rojo",      "cerebro",  1.0f, 0.4f);
         renderer(ModEntities.CEREBRO_AMARILLO,  "cerebro_amarillo",  "cerebro",  1.0f, 0.4f);
         renderer(ModEntities.FANTASMA_ROJO,     "fantasma_rojo",     "ghost",    1.0f, 0.3f);
-        renderer(ModEntities.FANTASMA_AMARILLO, "fantasma_amarillo", "ghost",    1.0f, 0.3f);
         renderer(ModEntities.DACTYLO_ADULTO,    "dactylo_adulto",    "dactylo",  2.0f, 0.8f);
         renderer(ModEntities.KRAGTOPS,          "kragtops",          "kragtops", 1.6f, 1.2f);
         renderer(ModEntities.CREEPER_VISCERAL,  "creeper_visceral",  "visceral", 1.0f, 0.5f);

@@ -1,5 +1,9 @@
 package neth6.soulspoon.mob;
 
+
+
+import neth6.soulspoon.entity.GeoMobs;
+import neth6.soulspoon.entity.ModEntities;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Holder;
 import net.minecraft.core.particles.ParticleTypes;
@@ -161,14 +165,13 @@ public final class Variants {
 
     static {
         // [14][70] Creeper Nuclear: explosion de radio 25; aparece en el techo del Nether.
-        add(new Variant("creeper_nuclear", "Creeper Nuclear", EntityType.CREEPER)
+        add(new Variant("creeper_nuclear", "Creeper Nuclear", ModEntities.NUCLEAR_CREEPER)
                 .setup(mob -> Cmd.merge(mob, "{ExplosionRadius:25b}"))
                 .spawn(Variant.Place.GROUND, (p, l) -> nether(l) && p.getY() >= 120));
 
         // [26] Creeper de Pasto: pequeno, rapido y mecha corta.
-        add(new Variant("creeper_pasto", "Creeper de Pasto", EntityType.CREEPER)
+        add(new Variant("creeper_pasto", "Creeper de Pasto", GeoMobs.CREEPER_PASTO)
                 .setup(mob -> {
-                    attr(mob, Attributes.SCALE, 0.5);
                     attr(mob, Attributes.MOVEMENT_SPEED, 0.5);
                     Cmd.merge(mob, "{Fuse:10s}");
                 }));
@@ -251,7 +254,7 @@ public final class Variants {
 
     static {
         // [15] Reptisaurio Salvaje (emboscador: se entierra).
-        add(new Variant("reptisaurio_salvaje", "Reptisaurio Salvaje", EntityType.RAVAGER)
+        add(new Variant("reptisaurio_salvaje", "Reptisaurio Salvaje", GeoMobs.REPTISAURIO_SALVAJE)
                 .setup(mob -> attr(mob, Attributes.MOVEMENT_SPEED, 0.4))
                 .tick(Variants::bury));
 
@@ -261,7 +264,7 @@ public final class Variants {
                 .tick(Variants::bury));
 
         // [16] Plumosaurio: pacifico hasta que le hacen dano.
-        add(new Variant("plumosaurio", "Plumosaurio", EntityType.IRON_GOLEM)
+        add(new Variant("plumosaurio", "Plumosaurio", ModEntities.PLUMOSAURIO)
                 .setup(mob -> attr(mob, Attributes.ATTACK_DAMAGE, 40))
                 .hurt((mob, attacker) -> {
                     if (attacker instanceof Player player && !player.isCreative()) {
@@ -292,7 +295,6 @@ public final class Variants {
         add(new Variant("dactylo_bebe", "D\u00e1ctylo Beb\u00e9", EntityType.PHANTOM)
                 .setup(mob -> {
                     phantomSetup(mob);
-                    attr(mob, Attributes.SCALE, 0.5);
                 })
                 .tick((mob, level) -> {
                     hunt(mob, level, 24);
@@ -313,7 +315,7 @@ public final class Variants {
                         || l.getBiome(p.blockPosition()).is(Biomes.MANGROVE_SWAMP))));
 
         // [27][35] Narval: embestidas acuaticas; migra a los oceanos.
-        add(new Variant("narval", "Narval", EntityType.DOLPHIN)
+        add(new Variant("narval", "Narval", GeoMobs.NARVAL)
                 .setup(mob -> attr(mob, Attributes.ATTACK_DAMAGE, 10))
                 .tick((mob, level) -> {
                     Player player = nearestPlayer(mob, level, 20);
@@ -361,7 +363,7 @@ public final class Variants {
                 .spawn(Variant.Place.GROUND, (p, l) -> nether(l)));
 
         // [34] Herobrine.
-        add(new Variant("herobrine", "Herobrine", EntityType.ZOMBIE)
+        add(new Variant("herobrine", "Herobrine", GeoMobs.HEROBRINE)
                 .setup(mob -> {
                     attr(mob, Attributes.MOVEMENT_SPEED, 0.45);
                     attr(mob, Attributes.ATTACK_DAMAGE, 20);
@@ -398,7 +400,7 @@ public final class Variants {
                 .spawn(Variant.Place.GROUND, (p, l) -> overworld(l) && l.isNight()));
 
         // [73] Fantasma Negro: quita 1 corazon permanente por golpe.
-        add(new Variant("fantasma_negro", "Fantasma Negro", EntityType.PHANTOM)
+        add(new Variant("fantasma_negro", "Fantasma Negro", GeoMobs.FANTASMA_NEGRO)
                 .setup(Variants::phantomSetup)
                 .tick((mob, level) -> hunt(mob, level, 32))
                 .hit((mob, player) -> {
@@ -420,7 +422,7 @@ public final class Variants {
                 }));
 
         // [76] Fantasma Blanco: Lentitud.
-        add(new Variant("fantasma_blanco", "Fantasma Blanco", EntityType.PHANTOM)
+        add(new Variant("fantasma_blanco", "Fantasma Blanco", GeoMobs.FANTASMA_BLANCO)
                 .setup(Variants::phantomSetup)
                 .tick((mob, level) -> hunt(mob, level, 32))
                 .hit((mob, player) -> player.addEffect(
@@ -477,5 +479,6 @@ public final class Variants {
     static {
         Variants4.defineAll();
         Variants5.defineAll();
+        Variants6.defineAll();
     }
 }
