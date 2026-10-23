@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "soulspoon:splat/pastel.png",
+      "ascent": 77,
+      "height": 160,
+      "chars": [""]
+    }
+  ]
+}

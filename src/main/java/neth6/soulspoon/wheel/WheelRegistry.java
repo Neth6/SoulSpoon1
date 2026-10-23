@@ -1,5 +1,7 @@
 package neth6.soulspoon.wheel;
 
+import neth6.soulspoon.sound.ModSounds;
+
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.protocol.game.ClientboundSetSubtitleTextPacket;
 import net.minecraft.network.protocol.game.ClientboundSetTitleTextPacket;
@@ -12,6 +14,7 @@ import net.minecraft.sounds.SoundSource;
 import neth6.soulspoon.codex.RuletaCodex;
 import neth6.soulspoon.rule.Rule;
 import neth6.soulspoon.rule.RuleData;
+import neth6.soulspoon.sound.ModSounds;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,19 +47,20 @@ public class WheelRegistry {
     // Ademas queda guardado en el Codex (historial de la ruleta).
     public static void broadcast(MinecraftServer server, WheelColor color,
                                  String title, String subtitle) {
-        Component titleText = Component.literal(title).withStyle(color.format());
+        Component titleText = WheelIcons.of(color).append(Component.literal(" "))
+                .append(Component.literal(title).withStyle(color.format()));
         Component subtitleText = Component.literal(subtitle);
 
         for (ServerPlayer player : server.getPlayerList().getPlayers()) {
             player.connection.send(new ClientboundSetTitlesAnimationPacket(10, 80, 20));
             player.connection.send(new ClientboundSetTitleTextPacket(titleText));
             player.connection.send(new ClientboundSetSubtitleTextPacket(subtitleText));
-            player.playNotifySound(SoundEvents.BEACON_ACTIVATE, SoundSource.MASTER, 1.0f, 1.0f);
+            player.playNotifySound(ModSounds.NOTIFY_MESSAGE, SoundSource.MASTER, 1.0f, 1.0f);
         }
         server.getPlayerList().broadcastSystemMessage(
-                Component.literal("[" + color.colorName() + "] ")
-                        .withStyle(color.format())
-                        .append(Component.literal(title + ": " + subtitle)),
+                WheelIcons.of(color).append(Component.literal(" "))
+                        .append(Component.literal(title).withStyle(color.format()))
+                        .append(Component.literal(subtitle.isEmpty() ? "" : ": " + subtitle)),
                 false);
 
         RuletaCodex.record(server, color, title, subtitle);

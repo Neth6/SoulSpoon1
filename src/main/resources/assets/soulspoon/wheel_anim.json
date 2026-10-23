@@ -1,98 +1,122 @@
 {
- "rojo": {
-  "slot": 0,
-  "frames": 60,
-  "delay": 1,
-  "loops": 1,
-  "final": true,
-  "final_ticks": 30
- },
- "morado": {
-  "slot": 1,
-  "frames": 58,
-  "delay": 1,
-  "loops": 1,
-  "final": true,
-  "final_ticks": 30
- },
- "verde": {
-  "slot": 2,
-  "frames": 56,
-  "delay": 1,
-  "loops": 1,
-  "final": true,
-  "final_ticks": 30
- },
- "amarillo": {
-  "slot": 3,
-  "frames": 59,
-  "delay": 1,
-  "loops": 1,
-  "final": true,
-  "final_ticks": 30
- },
- "cian": {
-  "slot": 4,
-  "frames": 56,
-  "delay": 1,
-  "loops": 1,
-  "final": true,
-  "final_ticks": 30
- },
- "azul": {
-  "slot": 5,
-  "frames": 59,
-  "delay": 1,
-  "loops": 1,
-  "final": true,
-  "final_ticks": 30
- },
- "naranja": {
-  "slot": 6,
-  "frames": 59,
-  "delay": 1,
-  "loops": 1,
-  "final": true,
-  "final_ticks": 30
- },
- "death": {
-  "slot": 7,
-  "frames": 47,
-  "delay": 1,
-  "loops": 1,
-  "final": true,
-  "final_ticks": 30
- },
- "gui": {
-  "slot": 8,
-  "frames": 0,
-  "delay": 1,
-  "loops": 1,
-  "final": true,
-  "final_ticks": 30
- },
- "nutria": {
-  "slot": 9,
-  "frames": 50,
-  "delay": 1,
-  "loops": 1,
-  "final": true,
-  "final_ticks": 30
- },
- "reviil": {
-  "slot": 10,
-  "frames": 54,
-  "delay": 1,
-  "loops": 1,
-  "final": true,
-  "final_ticks": 30
- },
- "rosa": {
-  "slot": 11,
-  "frames": 56,
-  "delay": 1,
-  "loops": 1,
-  "final": true,
-  "final_ticks": 30
- }
+  "rojo": {
+    "slot": 0,
+    "base": 57344,
+    "final_glyph": 57599,
+    "frames": 255,
+    "delay": 1,
+    "loops": 1,
+    "final": true,
+    "final_ticks": 30
+  },
+  "morado": {
+    "slot": 1,
+    "base": 57600,
+    "final_glyph": 57855,
+    "frames": 255,
+    "delay": 1,
+    "loops": 1,
+    "final": true,
+    "final_ticks": 30
+  },
+  "verde": {
+    "slot": 2,
+    "base": 57856,
+    "final_glyph": 58111,
+    "frames": 255,
+    "delay": 1,
+    "loops": 1,
+    "final": true,
+    "final_ticks": 30
+  },
+  "amarillo": {
+    "slot": 3,
+    "base": 58112,
+    "final_glyph": 58367,
+    "frames": 255,
+    "delay": 1,
+    "loops": 1,
+    "final": true,
+    "final_ticks": 30
+  },
+  "cian": {
+    "slot": 4,
+    "base": 58368,
+    "final_glyph": 58623,
+    "frames": 255,
+    "delay": 1,
+    "loops": 1,
+    "final": true,
+    "final_ticks": 30
+  },
+  "azul": {
+    "slot": 5,
+    "base": 58624,
+    "final_glyph": 58879,
+    "frames": 255,
+    "delay": 1,
+    "loops": 1,
+    "final": true,
+    "final_ticks": 30
+  },
+  "naranja": {
+    "slot": 6,
+    "base": 58880,
+    "final_glyph": 59135,
+    "frames": 255,
+    "delay": 1,
+    "loops": 1,
+    "final": true,
+    "final_ticks": 30
+  },
+  "death": {
+    "slot": 7,
+    "base": 59136,
+    "final_glyph": 59391,
+    "frames": 137,
+    "delay": 1,
+    "loops": 1,
+    "final": true,
+    "final_ticks": 30
+  },
+  "gui": {
+    "slot": 8,
+    "base": 59392,
+    "final_glyph": 59647,
+    "frames": 0,
+    "delay": 1,
+    "loops": 1,
+    "final": true,
+    "final_ticks": 30
+  },
+  "nutria": {
+    "slot": 9,
+    "base": 59648,
+    "final_glyph": 59903,
+    "frames": 100,
+    "delay": 1,
+    "loops": 1,
+    "final": true,
+    "final_ticks": 30
+  },
+  "reviil": {
+    "slot": 10,
+    "base": 59904,
+    "final_glyph": 60159,
+    "frames": 162,
+    "delay": 1,
+    "loops": 1,
+    "final": true,
+    "final_ticks": 30
+  },
+  "rosa": {
+    "slot": 11,
+    "base": 60160,
+    "final_glyph": 60415,
+    "frames": 255,
+    "delay": 1,
+    "loops": 1,
+    "final": true,
+    "final_ticks": 30
+  }
 }

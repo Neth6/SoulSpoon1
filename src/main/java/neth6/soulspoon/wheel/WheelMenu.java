@@ -1,10 +1,13 @@
 package neth6.soulspoon.wheel;
 
+import neth6.soulspoon.sound.ModSounds;
+
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerPlayer;
+import neth6.soulspoon.sound.ModSounds;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.SimpleContainer;
@@ -133,8 +136,8 @@ public class WheelMenu extends ChestMenu {
         spinning = true;
         WheelColor landed = enabled.get(player.getRandom().nextInt(enabled.size()));
         player.closeContainer();
-        player.playNotifySound(SoundEvents.EXPERIENCE_ORB_PICKUP, SoundSource.MASTER, 1.0f, 1.0f);
-        WheelAnim.play(server, landed, () -> {
+        ModSounds.playAll(server, ModSounds.RULETA);
+        WheelAnim.playFitted(server, landed, ModSounds.RULETA_TICKS, () -> {
             WheelRegistry.broadcast(server, landed,
                     landed.colorName().toUpperCase() + ": " + landed.title(),
                     landed.description());

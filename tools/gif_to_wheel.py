@@ -1,112 +1,397 @@
+
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 """
-Convierte la carpeta de arte de la ruleta en recursos del mod.
+Convierte las animaciones GIF y PNG en recursos de fuente bitmap
+para el mod SoulSpoon de Minecraft.
 
-Uso (desde la carpeta del proyecto):
-    pip install pillow
-    python tools/gif_to_wheel.py /e/spoon/arte_ruleta/textures src/main/resources [--height 32] [--max-frames 40]
-
-Cada subcarpeta de la carpeta de arte es una animacion. Puede traer:
-    animation.gif                  (se usa primero) o
-    frame_0000.png, frame_0001.png ... (fotogramas sueltos, en orden alfabetico)
-    un solo PNG                    (imagen fija)
-
-Carpetas que son colores de la ruleta:
-    roja -> rojo, morada -> morado, verde -> verde, amarilla -> amarillo,
-    celeste -> cian, azul -> azul, naranja -> naranja
-Las demas carpetas (nutria, reviil, rosa, death, muerte, gui...) se convierten en
-animaciones extra con el nombre de su carpeta.
+Uso desde la carpeta del proyecto:
+python tools/gif_to_wheel.py /e/spoon/arte_ruleta/textures src/main/resources --max-frames 255 --color-frames 255 --frame-delay 1
 """
-import argparse, json, os, re, shutil, sys
+
+import argparse
+import json
+import os
+import re
+import shutil
+import sys
+
 from PIL import Image, ImageSequence
 
-COLORS = {"rojo": "roja", "morado": "morada", "verde": "verde", "amarillo": "amarilla",
-          "cian": "celeste", "azul": "azul", "naranja": "naranja"}   # orden = WheelColor
-FINAL_SLOT = 63
+COLORS = {
+    "rojo": "roja",
+    "morado": "morada",
+    "verde": "verde",
+    "amarillo": "amarilla",
+    "cian": "celeste",
+    "azul": "azul",
+    "naranja": "naranja",
+}
+
+FINAL_SLOT = 255
+MAX_ANIMS = 24
+
 
 def natural(s):
-    return [int(t) if t.isdigit() else t.lower() for t in re.split(r"(\d+)", s)]
+    return [
+        int(t) if t.isdigit() else t.lower()
+        for t in re.split(r"(\d+)", s)
+    ]
+
 
 def fit(im, size):
-    """Reescala al maximo 'size' px (Minecraft no admite letras de mas de ~254 px)."""
+    """Centra el contenido visible en un lienzo fijo y conserva la transparencia."""
     im = im.convert("RGBA")
+
+    # Obtener los límites del contenido visible
+    bbox = im.getchannel("A").getbbox()
+
+    canvas = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+
+    if bbox is None:
+        return canvas
+
+    # Recortar el contenido transparente
+    im = im.crop(bbox)
+
+    # Escalar sin deformar
     w, h = im.size
-    k = size / max(w, h)
-    return im.resize((max(1, round(w * k)), max(1, round(h * k))), Image.LANCZOS)
+    scale = min(size / w, size / h)
+    new_w = max(1, round(w * scale))
+    new_h = max(1, round(h * scale))
+
+    im = im.resize(
+        (new_w, new_h),
+        Image.Resampling.LANCZOS
+    )
+
+    # Centrar el contenido
+    x = (size - new_w) // 2
+    y = (size - new_h) // 2
+
+    canvas.alpha_composite(im, (x, y))
+    return canvas
+
+    scale = min(size / max(w, h), 1.0)
+    new_w = max(1, round(w * scale))
+    new_h = max(1, round(h * scale))
+
+    return im.resize(
+        (new_w, new_h),
+        Image.Resampling.LANCZOS
+    )
+
+
+def pick(n, k):
+    """Selecciona fotogramas distribuidos a lo largo de la animacion."""
+    if n <= k:
+        return list(range(n))
+
+    if k <= 1:
+        return [n - 1]
+
+    return sorted({
+        round(i * (n - 1) / (k - 1))
+        for i in range(k)
+    })
+
+
 
 def load_frames(folder, max_frames, frame_delay):
-    # frame_delay = ticks por fotograma, fijo (1 tick = 20 fps)
-    """Devuelve (lista de imagenes, delay en ticks)."""
-    gif = os.path.join(folder, "animation.gif")
-    if os.path.exists(gif):
-        g = Image.open(gif)
-        raw = [(fr.copy(), fr.info.get("duration", 100)) for fr in ImageSequence.Iterator(g)]
-        step = max(1, -(-len(raw) // max_frames))
-        picked = raw[::step][:max_frames]
-        return [f for f, _ in picked], frame_delay
-    pngs = sorted([f for f in os.listdir(folder) if f.lower().endswith(".png")], key=natural)
+    """
+    Devuelve los fotogramas, la demora en ticks y la cantidad original.
+    Omite fotogramas completamente transparentes al principio y al final.
+    """
+    gif_path = os.path.join(folder, "animation.gif")
+
+    if os.path.exists(gif_path):
+        with Image.open(gif_path) as gif:
+            total = getattr(gif, "n_frames", 1)
+            raw = []
+
+            for i in range(total):
+                gif.seek(i)
+                raw.append(gif.convert("RGBA").copy())
+
+            # Eliminar solamente los fotogramas totalmente transparentes
+            # al principio y al final de la animación.
+            start = 0
+            end = len(raw)
+
+            while start < end and raw[start].getchannel("A").getbbox() is None:
+                start += 1
+
+            while end > start and raw[end - 1].getchannel("A").getbbox() is None:
+                end -= 1
+
+            raw = raw[start:end]
+
+            if not raw:
+                return [], frame_delay, total
+
+            indices = pick(len(raw), max_frames)
+            return [raw[i] for i in indices], frame_delay, total
+
+    pngs = sorted(
+        [f for f in os.listdir(folder) if f.lower().endswith(".png")],
+        key=natural
+    )
+
     if not pngs:
-        return [], frame_delay
-    step = max(1, -(-len(pngs) // max_frames))
-    picked = pngs[::step][:max_frames]
-    return [Image.open(os.path.join(folder, f)) for f in picked], frame_delay
+        return [], frame_delay, 0
+
+    indices = pick(len(pngs), max_frames)
+    frames = []
+
+    for i in indices:
+        with Image.open(os.path.join(folder, pngs[i])) as im:
+            frames.append(im.convert("RGBA").copy())
+
+    return frames, frame_delay, len(pngs)
+
+
+    pngs = sorted(
+        [
+            f for f in os.listdir(folder)
+            if f.lower().endswith(".png")
+        ],
+        key=natural
+    )
+
+    if not pngs:
+        return [], frame_delay, 0
+
+    selected = pick(len(pngs), max_frames)
+    frames = []
+
+    for filename_index in selected:
+        path = os.path.join(folder, pngs[filename_index])
+
+        with Image.open(path) as im:
+            frames.append(im.convert("RGBA").copy())
+
+    return frames, frame_delay, len(pngs)
+
 
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("art"); ap.add_argument("resources")
-    ap.add_argument("--height", type=int, default=56, help="tamano en pantalla (sube = mas grande)")
-    ap.add_argument("--size", type=int, default=254, help="resolucion de cada imagen en px (max 254)")
-    ap.add_argument("--ascent", type=int, default=None)
-    ap.add_argument("--max-frames", type=int, default=60, help="fotogramas por animacion (mas = dura mas)")
-    ap.add_argument("--frame-delay", type=int, default=1, help="ticks por fotograma (1 = rapido)")
-    ap.add_argument("--loops", type=int, default=1)
-    ap.add_argument("--final-seconds", type=float, default=1.5, help="cuanto se queda el ultimo fotograma")
-    a = ap.parse_args()
-    ascent = a.ascent if a.ascent is not None else a.height // 2 - 3   # centrado en pantalla
-    a.size = min(a.size, 254)
+    parser = argparse.ArgumentParser()
 
-    base = os.path.join(a.resources, "assets", "soulspoon")
+    parser.add_argument("art")
+    parser.add_argument("resources")
+
+    parser.add_argument(
+        "--height",
+        type=int,
+        default=56,
+        help="Altura visual de la animacion en Minecraft"
+    )
+
+    parser.add_argument(
+        "--size",
+        type=int,
+        default=254,
+        help="Resolucion maxima de cada imagen"
+    )
+
+    parser.add_argument(
+        "--ascent",
+        type=int,
+        default=None,
+        help="Posicion vertical de la imagen en la fuente"
+    )
+
+    parser.add_argument(
+        "--max-frames",
+        type=int,
+        default=255,
+        help="Maximo de fotogramas para animaciones adicionales"
+    )
+
+    parser.add_argument(
+        "--color-frames",
+        type=int,
+        default=255,
+        help="Maximo de fotogramas para las ruletas de colores"
+    )
+
+    parser.add_argument(
+        "--frame-delay",
+        type=int,
+        default=1,
+        help="Ticks por fotograma; 1 tick equivale a 20 FPS"
+    )
+
+    parser.add_argument("--loops", type=int, default=1)
+
+    parser.add_argument(
+        "--final-seconds",
+        type=float,
+        default=1.5,
+        help="Segundos que permanece el fotograma final"
+    )
+
+    args = parser.parse_args()
+
+    if args.height < 1:
+        parser.error("--height debe ser mayor que cero")
+
+    if args.size < 1:
+        parser.error("--size debe ser mayor que cero")
+
+    if args.frame_delay < 1:
+        parser.error("--frame-delay debe ser mayor que cero")
+
+    if args.max_frames < 1 or args.color_frames < 1:
+        parser.error("Los limites de fotogramas deben ser mayores que cero")
+
+    args.size = min(args.size, 254)
+    args.max_frames = min(args.max_frames, 255)
+    args.color_frames = min(args.color_frames, 255)
+
+    ascent = (
+        args.ascent
+        if args.ascent is not None
+        else args.height // 2 - 3
+    )
+
+    base = os.path.join(
+        args.resources,
+        "assets",
+        "soulspoon"
+    )
+
     tex = os.path.join(base, "textures", "wheel")
-    shutil.rmtree(tex, ignore_errors=True)
-    os.makedirs(tex); os.makedirs(os.path.join(base, "font"), exist_ok=True)
+    font_dir = os.path.join(base, "font")
 
-    names = []                                   # (nombre, carpeta, slot)
+    os.makedirs(base, exist_ok=True)
+    os.makedirs(font_dir, exist_ok=True)
+
+    names = []
+
     for slot, (color, folder) in enumerate(COLORS.items()):
         names.append((color, folder, slot))
-    extras = sorted(d for d in os.listdir(a.art)
-                    if os.path.isdir(os.path.join(a.art, d)) and d not in COLORS.values())
-    for i, d in enumerate(extras):
-        names.append((d, d, len(COLORS) + i))
-    if len(names) > 90:
-        sys.exit("Demasiadas animaciones (maximo 90)")
 
-    providers, anim = [], {}
+    extras = sorted(
+        [
+            directory
+            for directory in os.listdir(args.art)
+            if os.path.isdir(os.path.join(args.art, directory))
+            and directory not in COLORS.values()
+        ],
+        key=natural
+    )
+
+    for i, directory in enumerate(extras):
+        names.append((directory, directory, len(COLORS) + i))
+
+    if len(names) > MAX_ANIMS:
+        sys.exit(
+            "Demasiadas animaciones: maximo %d." % MAX_ANIMS
+        )
+
+    shutil.rmtree(tex, ignore_errors=True)
+    os.makedirs(tex, exist_ok=True)
+
+    providers = []
+    animations = {}
+
     for name, folder, slot in names:
-        path = os.path.join(a.art, folder)
+        path = os.path.join(args.art, folder)
+
         if not os.path.isdir(path):
             continue
-        frames, delay = load_frames(path, a.max_frames, a.frame_delay)
+
+        limit = (
+            args.color_frames
+            if name in COLORS
+            else args.max_frames
+        )
+
+        frames, delay, original_count = load_frames(
+            path,
+            limit,
+            args.frame_delay
+        )
+
         if not frames:
+            print(f"{name}: no se encontraron imagenes.")
             continue
-        static = len(frames) == 1
-        def glyph(n): return chr(0xE000 + slot * 64 + n)
-        count = 0
-        if not static:
-            for n, fr in enumerate(frames):
-                fit(fr, a.size).save(os.path.join(tex, f"{name}_{n:02d}.png"))
-                providers.append({"type": "bitmap", "file": f"soulspoon:wheel/{name}_{n:02d}.png",
-                                  "ascent": ascent, "height": a.height, "chars": [glyph(n)]})
-            count = len(frames)
-        # el ultimo fotograma (o la imagen fija) se queda en pantalla al terminar
-        fit(frames[-1], a.size).save(os.path.join(tex, f"{name}_final.png"))
-        providers.append({"type": "bitmap", "file": f"soulspoon:wheel/{name}_final.png",
-                          "ascent": ascent, "height": a.height, "chars": [glyph(FINAL_SLOT)]})
-        anim[name] = {"slot": slot, "frames": count, "delay": delay, "loops": a.loops,
-                      "final": True, "final_ticks": int(a.final_seconds * 20)}
-        print(f"{name:10s} slot {slot:2d}: {count} fotogramas, {delay} ticks c/u")
 
-    json.dump({"providers": providers}, open(os.path.join(base, "font", "wheel.json"), "w"), indent=1)
-    json.dump(anim, open(os.path.join(base, "wheel_anim.json"), "w"), indent=1)
-    print(f"Listo: {len(anim)} animaciones, {len(providers)} imagenes.")
+        def glyph(n):
+            return chr(0xE000 + slot * 256 + n)
 
-main()
+        count = len(frames)
+        is_static = count == 1
+
+        if not is_static:
+            for n, frame in enumerate(frames):
+                filename = f"{name}_{n:02d}.png"
+                frame_path = os.path.join(tex, filename)
+
+                fit(frame, args.size).save(frame_path)
+
+                providers.append({
+                    "type": "bitmap",
+                    "file": f"soulspoon:wheel/{filename}",
+                    "ascent": ascent,
+                    "height": args.height,
+                    "chars": [glyph(n)]
+                })
+
+        final_filename = f"{name}_final.png"
+        final_path = os.path.join(tex, final_filename)
+
+        fit(frames[-1], args.size).save(final_path)
+
+        providers.append({
+            "type": "bitmap",
+            "file": f"soulspoon:wheel/{final_filename}",
+            "ascent": ascent,
+            "height": args.height,
+            "chars": [glyph(FINAL_SLOT)]
+        })
+
+        animations[name] = {
+            "slot": slot,
+            "base": 0xE000 + slot * 256,
+            "final_glyph": 0xE000 + slot * 256 + FINAL_SLOT,
+            "frames": 0 if is_static else count,
+            "delay": delay,
+            "loops": args.loops,
+            "final": True,
+            "final_ticks": int(args.final_seconds * 20)
+        }
+
+        print(
+            f"{name:10s} slot {slot:2d}: "
+            f"{count} seleccionados de {original_count} originales"
+        )
+
+    font_path = os.path.join(font_dir, "wheel.json")
+    anim_path = os.path.join(base, "wheel_anim.json")
+
+    with open(font_path, "w", encoding="utf-8") as file:
+        json.dump(
+            {"providers": providers},
+            file,
+            indent=2,
+            ensure_ascii=False
+        )
+
+    with open(anim_path, "w", encoding="utf-8") as file:
+        json.dump(
+            animations,
+            file,
+            indent=2,
+            ensure_ascii=False
+        )
+
+    print()
+    print(f"Listo: {len(animations)} animaciones.")
+    print(f"Imagenes generadas: {len(providers)}.")
+    print("Recursos guardados en:", base)
+
+
+if __name__ == "__main__":
+    main()

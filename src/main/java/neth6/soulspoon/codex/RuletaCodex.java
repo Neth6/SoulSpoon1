@@ -48,6 +48,20 @@ public final class RuletaCodex {
                     "Fabrica el Traje Interdimensional para sobrevivir a la magia toxica entre dimensiones y buscar a Reviil.",
                     "OBTAIN", "soulspoon:traje_interdimensional"));
 
+    /** Recompensa en azules: las faciles 10-20 azules, las complicadas 2-5 verdes (100 c/u). */
+    public static long rewardFor(String questId) {
+        return switch (questId.replace("ruleta_", "")) {
+            case "dia1" -> 10;
+            case "dia2" -> 15;
+            case "dia5" -> 200;
+            case "dia7" -> 500;
+            case "dia8" -> 300;
+            case "dia9" -> 300;
+            case "dia15" -> 500;
+            default -> 0;
+        };
+    }
+
     /** Ids de las misiones principales (dia1, dia2, dia5, ...). */
     public static List<String> mainIds() {
         List<String> ids = new ArrayList<>();
@@ -87,8 +101,9 @@ public final class RuletaCodex {
         q.objectiveType = def.type();
         q.target = def.target();
         q.amount = 1;
-        q.rewardItem = "minecraft:experience_bottle";
-        q.rewardCount = 8;
+        q.rewardItem = "";
+        q.rewardCount = 1;
+        q.rewardDeditas = rewardFor(questId);
         q.daily = false;
         content.quests.add(q);
 
