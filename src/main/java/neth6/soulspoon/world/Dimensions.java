@@ -145,6 +145,11 @@ public final class Dimensions {
     }
 
     public static void sendToLimbo(ServerPlayer player) {
+        Limbo.mandar(player);
+    }
+
+    @SuppressWarnings("unused")
+    private static void sendToLimboAntiguo(ServerPlayer player) {
         ServerLevel limbo = player.server.getLevel(LIMBO);
         if (limbo == null) {
             player.displayClientMessage(Component.literal(
