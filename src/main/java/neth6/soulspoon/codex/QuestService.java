@@ -187,7 +187,13 @@ public final class QuestService {
                 if (!stack.isEmpty()) player.drop(stack, false); // inventario lleno: cae al suelo
             });
         }
-        player.displayClientMessage(Component.literal("¡Recompensa reclamada: " + q.title + "!"), true);
+        if (q.rewardDeditas > 0) {
+            neth6.soulspoon.economy.Economy.add(player, q.rewardDeditas);
+            player.displayClientMessage(Component.literal("¡Recompensa reclamada: " + q.title + " (+"
+                    + neth6.soulspoon.economy.Dedita.describe(q.rewardDeditas) + ")!"), true);
+        } else {
+            player.displayClientMessage(Component.literal("¡Recompensa reclamada: " + q.title + "!"), true);
+        }
         syncProgress(player);
     }
 

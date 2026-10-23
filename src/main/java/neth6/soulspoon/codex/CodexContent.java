@@ -30,6 +30,8 @@ public class CodexContent {
         public int amount = 1;
         public String rewardItem = "";
         public int rewardCount = 1;
+        /** Recompensa en deditas, expresada en azules (1 azul = 1, verde = 100, roja = 1.000, morada = 10.000). */
+        public long rewardDeditas = 0;
         /** Misión diaria: su progreso y su "reclamada" se reinician cada día. */
         public boolean daily = false;
     }

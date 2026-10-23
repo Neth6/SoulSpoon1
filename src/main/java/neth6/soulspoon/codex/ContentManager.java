@@ -59,6 +59,7 @@ public final class ContentManager {
             try (Reader reader = Files.newBufferedReader(path, StandardCharsets.UTF_8)) {
                 CodexContent loaded = COMPACT.fromJson(reader, CodexContent.class);
                 content = loaded != null ? loaded : new CodexContent();
+                if (migrateRewards()) save();
                 return;
             } catch (IOException | JsonParseException e) {
                 SoulSpoon.LOGGER.error("No se pudo leer {}; se usa contenido de ejemplo", path, e);
@@ -66,6 +67,29 @@ public final class ContentManager {
         }
         content = defaults();
         save();
+    }
+
+    /**
+     * Pasa las misiones de ejemplo y las de la ruleta de recompensas en items a deditas.
+     * Devuelve true si cambio algo (entonces se guarda codex.json).
+     */
+    private static boolean migrateRewards() {
+        boolean changed = false;
+        for (CodexContent.Quest q : content.quests) {
+            if (q.rewardDeditas > 0) continue;
+            long deditas = 0;
+            if (q.id.equals("primera_sangre") && "minecraft:iron_ingot".equals(q.rewardItem)) deditas = 10;
+            else if (q.id.equals("cazador_de_cuero") && "minecraft:diamond".equals(q.rewardItem)) deditas = 20;
+            else if (q.id.equals("diaria_madera") && "minecraft:golden_apple".equals(q.rewardItem)) deditas = 15;
+            else if (q.id.startsWith("ruleta_")) deditas = RuletaCodex.rewardFor(q.id);
+            if (deditas > 0) {
+                q.rewardDeditas = deditas;
+                q.rewardItem = "";
+                q.rewardCount = 1;
+                changed = true;
+            }
+        }
+        return changed;
     }
 
     public static void save() {
@@ -92,8 +116,7 @@ public final class ContentManager {
         q.objectiveType = "KILL";
         q.target = "minecraft:zombie";
         q.amount = 5;
-        q.rewardItem = "minecraft:iron_ingot";
-        q.rewardCount = 8;
+        q.rewardDeditas = 10;
         c.quests.add(q);
 
         CodexContent.Quest q2 = new CodexContent.Quest();
@@ -106,8 +129,7 @@ public final class ContentManager {
         q2.objectiveType = "KILL";
         q2.target = "minecraft:skeleton";
         q2.amount = 10;
-        q2.rewardItem = "minecraft:diamond";
-        q2.rewardCount = 2;
+        q2.rewardDeditas = 20;
         c.quests.add(q2);
 
         CodexContent.Quest d = new CodexContent.Quest();
@@ -119,8 +141,7 @@ public final class ContentManager {
         d.objectiveType = "OBTAIN";
         d.target = "minecraft:oak_log";
         d.amount = 32;
-        d.rewardItem = "minecraft:golden_apple";
-        d.rewardCount = 1;
+        d.rewardDeditas = 15;
         d.daily = true;
         c.quests.add(d);
 
@@ -271,6 +292,7 @@ public final class ContentManager {
             q.rewardItem = "";
         }
         q.rewardCount = Math.max(1, Math.min(q.rewardCount, 64));
+        q.rewardDeditas = Math.max(0L, Math.min(q.rewardDeditas, 100_000_000L));
         return null;
     }
 

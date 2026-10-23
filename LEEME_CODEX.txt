@@ -1,0 +1,7 @@
+SOULSPOON - CODEX CON TU GUI (marco plateado)
+1) Descomprime este zip dentro de E:\spoon\SoulSpoon1 (reemplaza CodexScreen.java).
+2) Borra el CodexGuiScreen.java de tu zip si lo copiaste (no se usa; este CodexScreen ya lo incluye).
+3) Run en IntelliJ. Abre el codex como siempre.
+
+Botones (arriba -> abajo): libro = Recetas | espada = Bestiario | pergamino = Misiones | lupa = Historia
+Para cambiar el orden: CodexScreen.java -> BUTTON_TAB = {0, 3, 1, 2}  (0 Recetas, 1 Misiones, 2 Historia, 3 Bestiario)
