@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"I  ",
+		"CI ",
+		"ICI"
+	],
+	"key": {
+		"I": {
+			"item": "minecraft:iron_ingot"
+		},
+		"C": {
+			"item": "soulspoon:chip_phora"
+		}
+	},
+	"result": {
+		"id": "soulspoon:nave_aleron_derecho",
+		"count": 1
+	}
+}

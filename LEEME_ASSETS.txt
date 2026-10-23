@@ -1,0 +1,7 @@
+ASSETS DE DEDSAFIO 4 -> SoulSpoon
+1) Descomprime en la raiz del repo (E:\spoon\SoulSpoon1).
+2) Git Bash:  python tools/importar_assets.py     y luego   ./gradlew build
+Qué hace: copia modelos/blockstates/geo/animations/sonidos al mod (namespace dedsafio4 -> soulspoon) SIN pisar
+tus archivos, agrega textos de idioma y sonidos que falten, y registra 37 bloques simples y 109 items.
+No entran todavia (quedan en tools/assets_pendientes): animaciones/ modelos/ skins/ shaders/ font/.
+Faltan las texturas (llegan despues).

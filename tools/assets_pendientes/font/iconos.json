@@ -1,0 +1,85 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "soulspoon:font/conectado.png",
+			"height": 8,
+			"ascent": 7,
+			"chars": [
+				""
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "soulspoon:font/cambio.png",
+			"height": 8,
+			"ascent": 7,
+			"chars": [
+				""
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "soulspoon:gui/dedita.png",
+			"height": 8,
+			"ascent": 7,
+			"chars": [
+				""
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "soulspoon:font/despegue.png",
+			"height": 8,
+			"ascent": 7,
+			"chars": [
+				""
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "soulspoon:font/mision_diaria.png",
+			"height": 8,
+			"ascent": 7,
+			"chars": [
+				""
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "soulspoon:font/rango_maestro.png",
+			"height": 8,
+			"ascent": 7,
+			"chars": [
+				""
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "soulspoon:font/rango_lider.png",
+			"height": 8,
+			"ascent": 7,
+			"chars": [
+				""
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "soulspoon:font/rango_miembro.png",
+			"height": 8,
+			"ascent": 7,
+			"chars": [
+				""
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "soulspoon:font/lapida.png",
+			"height": 8,
+			"ascent": 7,
+			"chars": [
+				""
+			]
+		}
+	]
+}

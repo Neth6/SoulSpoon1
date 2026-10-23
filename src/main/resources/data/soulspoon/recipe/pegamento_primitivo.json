@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"CAC",
+		"AEA",
+		"CAC"
+	],
+	"key": {
+		"C": {
+			"item": "minecraft:charcoal"
+		},
+		"A": {
+			"item": "soulspoon:ambar"
+		},
+		"E": {
+			"item": "soulspoon:excremento"
+		}
+	},
+	"result": {
+		"id": "soulspoon:pegamento_primitivo",
+		"count": 1
+	}
+}

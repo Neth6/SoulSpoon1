@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "soulspoon:plantilla_glebanoide"
+  },
+  "base": {
+    "item": "soulspoon:peto_primitiva"
+  },
+  "addition": {
+    "item": "minecraft:nether_star"
+  },
+  "result": {
+    "id": "soulspoon:peto_glebanoide",
+    "count": 1
+  }
+}

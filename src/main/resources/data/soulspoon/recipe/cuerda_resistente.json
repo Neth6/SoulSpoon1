@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"PEP",
+		"EPE",
+		"PEP"
+	],
+	"key": {
+		"P": {
+			"item": "soulspoon:pegamento_primitivo"
+		},
+		"E": {
+			"item": "soulspoon:pelo_eburia"
+		}
+	},
+	"result": {
+		"id": "soulspoon:cuerda_resistente",
+		"count": 1
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"PSN",
+		"FE "
+	],
+	"key": {
+		"P": {
+			"item": "soulspoon:pildora_vacia"
+		},
+		"S": {
+			"item": "minecraft:slime_ball"
+		},
+		"N": {
+			"item": "minecraft:nether_wart"
+		},
+		"F": {
+			"item": "minecraft:fermented_spider_eye"
+		},
+		"E": {
+			"item": "minecraft:echo_shard"
+		}
+	},
+	"result": {
+		"id": "soulspoon:pildora",
+		"count": 1
+	}
+}

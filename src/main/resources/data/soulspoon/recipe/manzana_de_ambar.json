@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "minecraft:golden_apple"
+		},
+		{
+			"item": "soulspoon:ambar_con_insecto"
+		}
+	],
+	"result": {
+		"id": "soulspoon:manzana_de_ambar",
+		"count": 1
+	}
+}

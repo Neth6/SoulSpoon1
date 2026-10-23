@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "soulspoon:fantasma_amarillo",
+      "required": false
+    },
+    {
+      "id": "soulspoon:fantasma_blanco",
+      "required": false
+    },
+    {
+      "id": "soulspoon:fantasma_rojo",
+      "required": false
+    },
+    {
+      "id": "soulspoon:fantasma_negro",
+      "required": false
+    },
+    {
+      "id": "soulspoon:flashbang",
+      "required": false
+    }
+  ]
+}

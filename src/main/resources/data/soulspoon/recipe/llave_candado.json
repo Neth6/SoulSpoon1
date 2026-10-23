@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"CI"
+	],
+	"key": {
+		"C": {
+			"item": "soulspoon:chip_phora"
+		},
+		"I": {
+			"item": "minecraft:copper_ingot"
+		}
+	},
+	"result": {
+		"id": "soulspoon:llave_candado",
+		"count": 1
+	}
+}

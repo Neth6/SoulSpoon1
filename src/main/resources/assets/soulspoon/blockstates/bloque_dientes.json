@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "soulspoon:block/bloque_dientes"
+		},
+		"facing=east": {
+			"model": "soulspoon:block/bloque_dientes",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "soulspoon:block/bloque_dientes",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "soulspoon:block/bloque_dientes",
+			"y": 270
+		}
+	}
+}

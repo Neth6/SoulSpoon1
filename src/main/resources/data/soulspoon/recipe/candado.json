@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"CBC",
+		"BCB",
+		"CBC"
+	],
+	"key": {
+		"C": {
+			"item": "soulspoon:chip_phora"
+		},
+		"B": {
+			"item": "minecraft:copper_block"
+		}
+	},
+	"result": {
+		"id": "soulspoon:candado",
+		"count": 1
+	}
+}

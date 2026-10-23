@@ -1,0 +1,18 @@
+{
+	"type": "dedsafio4:limbo",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"biome": "dedsafio4:limbo",
+			"lakes": false,
+			"features": false,
+			"layers": [
+				{
+					"block": "minecraft:stone",
+					"height": 1
+				}
+			],
+			"structure_overrides": []
+		}
+	}
+}

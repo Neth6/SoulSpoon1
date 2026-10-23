@@ -1,0 +1,16 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "soulspoon:block/robot_dormido"
+		},
+		"facing=south": {
+			"model": "soulspoon:block/robot_dormido"
+		},
+		"facing=east": {
+			"model": "soulspoon:block/robot_dormido"
+		},
+		"facing=west": {
+			"model": "soulspoon:block/robot_dormido"
+		}
+	}
+}

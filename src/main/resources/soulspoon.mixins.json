@@ -3,7 +3,12 @@
 	"package": "neth6.soulspoon.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+		"ExplosionProtectMixin",
+		"HopperBlockEntityMixin",
+		"ChestBlockMixin",
+		"ExplosionCandadoMixin",
+		"TridenteLimboMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

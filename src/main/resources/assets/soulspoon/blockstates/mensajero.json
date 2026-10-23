@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=west": {
+			"model": "soulspoon:block/mensajero"
+		},
+		"facing=north": {
+			"model": "soulspoon:block/mensajero",
+			"y": 90
+		},
+		"facing=east": {
+			"model": "soulspoon:block/mensajero",
+			"y": 180
+		},
+		"facing=south": {
+			"model": "soulspoon:block/mensajero",
+			"y": 270
+		}
+	}
+}

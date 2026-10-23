@@ -1,0 +1,31 @@
+{
+	"variants": {
+		"facing=north,half=lower": {
+			"model": "soulspoon:block/cajero",
+			"y": 180
+		},
+		"facing=north,half=upper": {
+			"model": "soulspoon:block/cajero_arriba"
+		},
+		"facing=east,half=lower": {
+			"model": "soulspoon:block/cajero",
+			"y": 270
+		},
+		"facing=east,half=upper": {
+			"model": "soulspoon:block/cajero_arriba"
+		},
+		"facing=south,half=lower": {
+			"model": "soulspoon:block/cajero"
+		},
+		"facing=south,half=upper": {
+			"model": "soulspoon:block/cajero_arriba"
+		},
+		"facing=west,half=lower": {
+			"model": "soulspoon:block/cajero",
+			"y": 90
+		},
+		"facing=west,half=upper": {
+			"model": "soulspoon:block/cajero_arriba"
+		}
+	}
+}

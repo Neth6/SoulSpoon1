@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "soulspoon:plantilla_carmesi"
+  },
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "addition": {
+    "item": "soulspoon:esencia_roja"
+  },
+  "result": {
+    "id": "soulspoon:pantalones_carmesi",
+    "count": 1
+  }
+}

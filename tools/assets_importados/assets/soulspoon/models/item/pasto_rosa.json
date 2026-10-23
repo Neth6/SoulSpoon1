@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "soulspoon:block/pasto_rosa"
+	}
+}

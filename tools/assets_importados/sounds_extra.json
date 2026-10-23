@@ -1,0 +1,188 @@
+{
+	"cofre_abrir": {
+		"sounds": [
+			"soulspoon:cofre_abrir"
+		],
+		"subtitle": "subtitles.soulspoon.cofre_abrir"
+	},
+	"cofre_cerrar": {
+		"sounds": [
+			"soulspoon:cofre_cerrar"
+		],
+		"subtitle": "subtitles.soulspoon.cofre_cerrar"
+	},
+	"ruleta": {
+		"sounds": [
+			{
+				"name": "soulspoon:ruleta",
+				"stream": true
+			}
+		]
+	},
+	"criatura_roja": {
+		"sounds": [
+			{
+				"name": "soulspoon:criatura_roja",
+				"stream": true
+			}
+		]
+	},
+	"nutria_rosa": {
+		"sounds": [
+			{
+				"name": "soulspoon:nutria_rosa",
+				"stream": true
+			}
+		]
+	},
+	"muerte": {
+		"sounds": [
+			{
+				"name": "soulspoon:muerte",
+				"stream": true
+			}
+		]
+	},
+	"momentito_escalera": {
+		"sounds": [
+			{
+				"name": "soulspoon:momentito_escalera",
+				"stream": true
+			}
+		]
+	},
+	"amuleto_brillo": {
+		"sounds": [
+			"soulspoon:amuleto_brillo"
+		]
+	},
+	"cinematica1": {
+		"sounds": [
+			{
+				"name": "soulspoon:cinematica1",
+				"stream": true
+			}
+		]
+	},
+	"fantasma_ambiente": {
+		"sounds": [
+			"soulspoon:fantasma_ambiente"
+		]
+	},
+	"fantasma_golpe": {
+		"sounds": [
+			"soulspoon:fantasma_golpe"
+		]
+	},
+	"flashbang": {
+		"sounds": [
+			"soulspoon:flashbang"
+		]
+	},
+	"flashbang_zumbido": {
+		"sounds": [
+			"soulspoon:flashbang_zumbido"
+		]
+	},
+	"nutria": {
+		"sounds": [
+			{
+				"name": "soulspoon:nutria",
+				"stream": true
+			}
+		]
+	},
+	"reviil_escena": {
+		"sounds": [
+			{
+				"name": "soulspoon:reviil_escena",
+				"preload": true
+			}
+		]
+	},
+	"cielo2.reviil_musica": {
+		"sounds": [
+			{
+				"name": "soulspoon:cielo2/reviil_musica",
+				"stream": true
+			}
+		]
+	},
+	"cielo2.retumbo": {
+		"sounds": [
+			{
+				"name": "soulspoon:cielo2/retumbo",
+				"preload": true
+			}
+		]
+	},
+	"cielo2.musica": {
+		"sounds": [
+			{
+				"name": "soulspoon:cielo2/musica",
+				"stream": true
+			}
+		]
+	},
+	"cielo2.despeja": {
+		"sounds": [
+			{
+				"name": "soulspoon:cielo2/despeja",
+				"preload": true
+			}
+		]
+	},
+	"cielo2.grieta_rayo": {
+		"sounds": [
+			{
+				"name": "soulspoon:cielo2/grieta_rayo",
+				"preload": true
+			}
+		]
+	},
+	"cielo2.grieta_abre": {
+		"sounds": [
+			{
+				"name": "soulspoon:cielo2/grieta_abre",
+				"preload": true
+			}
+		]
+	},
+	"cielo2.grieta_cierra": {
+		"sounds": [
+			{
+				"name": "soulspoon:cielo2/grieta_cierra",
+				"preload": true
+			}
+		]
+	},
+	"cielo2.cabezazo": {
+		"sounds": [
+			{
+				"name": "soulspoon:cielo2/cabezazo",
+				"preload": true
+			}
+		]
+	},
+	"casino": {
+		"sounds": [
+			{
+				"name": "soulspoon:casino"
+			}
+		]
+	},
+	"casino_win": {
+		"sounds": [
+			{
+				"name": "soulspoon:casino_win"
+			}
+		]
+	},
+	"mensaje_nuevo": {
+		"sounds": [
+			{
+				"name": "soulspoon:mensaje_nuevo"
+			}
+		]
+	}
+}

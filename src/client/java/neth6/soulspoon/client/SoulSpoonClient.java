@@ -15,7 +15,14 @@ public class SoulSpoonClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         ModEntityRenderers.register();
+        MapaClient.initialize();
+        SocialClient.initialize();
+        HermandadClient.initialize();
+        CofresClient.initialize();
+        CajeroCorreoClient.initialize();
+        CasinoClient.initialize();
         ModEntitiesClient.initialize();
+        EconomyHud.register();
 
         openCodex = KeyBindingHelper.registerKeyBinding(new KeyMapping(
                 "key.soulspoon.codex",

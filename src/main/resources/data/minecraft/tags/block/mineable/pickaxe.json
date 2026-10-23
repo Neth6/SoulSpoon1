@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "soulspoon:boveda",
+    "soulspoon:mineral_de_ambar",
+    "soulspoon:mineral_de_grasa",
+    "soulspoon:mensajero",
+    "soulspoon:cofre_protegido",
+    "soulspoon:bloque_celeste",
+    "soulspoon:bloque_amarillo",
+    "soulspoon:bloque_verde",
+    "soulspoon:bloque_rojo",
+    "soulspoon:bloque_pixeles",
+    "soulspoon:robot_dormido",
+    "soulspoon:caca",
+    "soulspoon:mineral_verde",
+    "soulspoon:bloque_naranja",
+    "soulspoon:bloque_luces",
+    "soulspoon:cajero",
+    "soulspoon:bloque_dilitio",
+    "soulspoon:cofre_huesos",
+    "soulspoon:musculo",
+    "soulspoon:gelatina_roja",
+    "soulspoon:gelatina_rosa",
+    "soulspoon:soporte_nave",
+    "soulspoon:grasa_liquida",
+    "soulspoon:grasa_coagulada"
+  ]
+}

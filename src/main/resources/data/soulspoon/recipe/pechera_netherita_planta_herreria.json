@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:smithing_transform",
+	"template": {
+		"item": "soulspoon:amuleto_verde"
+	},
+	"base": {
+		"item": "minecraft:diamond_chestplate"
+	},
+	"addition": {
+		"item": "minecraft:netherite_ingot"
+	},
+	"result": {
+		"id": "soulspoon:pechera_netherita_planta",
+		"count": 1
+	}
+}

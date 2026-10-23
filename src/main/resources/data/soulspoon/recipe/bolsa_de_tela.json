@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"T T",
+		"TCT",
+		"TTT"
+	],
+	"key": {
+		"T": {
+			"item": "soulspoon:tela_primitiva"
+		},
+		"C": {
+			"item": "soulspoon:cuerda_resistente"
+		}
+	},
+	"result": {
+		"id": "soulspoon:bolsa_de_tela",
+		"count": 1
+	}
+}

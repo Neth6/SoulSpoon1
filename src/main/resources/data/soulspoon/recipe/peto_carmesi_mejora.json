@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "soulspoon:plantilla_carmesi"
+  },
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "addition": {
+    "item": "soulspoon:esencia_roja"
+  },
+  "result": {
+    "id": "soulspoon:peto_carmesi",
+    "count": 1
+  }
+}

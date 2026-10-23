@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "soulspoon:plantilla_radiante"
+  },
+  "base": {
+    "item": "soulspoon:pantalones_carmesi"
+  },
+  "addition": {
+    "item": "minecraft:nether_star"
+  },
+  "result": {
+    "id": "soulspoon:pantalones_radiante",
+    "count": 1
+  }
+}

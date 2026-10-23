@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "soulspoon:carne_rosa",
+    "soulspoon:carne_roja",
+    "soulspoon:carne_con_venas",
+    "soulspoon:musculo",
+    "soulspoon:mineral_de_grasa",
+    "soulspoon:pulmones",
+    "soulspoon:bloque_carne",
+    "soulspoon:bloque_carne_rosa",
+    "soulspoon:bloque_dientes",
+    "soulspoon:gelatina_roja",
+    "soulspoon:gelatina_rosa",
+    "soulspoon:grasa_coagulada",
+    "soulspoon:pasto_rosa"
+  ]
+}

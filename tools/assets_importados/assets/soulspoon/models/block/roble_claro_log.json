@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "soulspoon:block/roble_claro_log_top",
+		"side": "soulspoon:block/roble_claro_log"
+	}
+}

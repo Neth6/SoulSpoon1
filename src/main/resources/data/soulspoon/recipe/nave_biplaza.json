@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		" C ",
+		"IBD",
+		" M "
+	],
+	"key": {
+		"C": {
+			"item": "soulspoon:nave_cabina"
+		},
+		"I": {
+			"item": "soulspoon:nave_aleron_izquierdo"
+		},
+		"B": {
+			"item": "soulspoon:bateria_dilitio"
+		},
+		"D": {
+			"item": "soulspoon:nave_aleron_derecho"
+		},
+		"M": {
+			"item": "soulspoon:nave_motor"
+		}
+	},
+	"result": {
+		"id": "soulspoon:nave_biplaza",
+		"count": 1
+	}
+}

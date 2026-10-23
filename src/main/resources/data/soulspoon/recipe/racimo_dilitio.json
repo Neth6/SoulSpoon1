@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "soulspoon:dilitio"
+		}
+	},
+	"result": {
+		"id": "soulspoon:racimo_dilitio",
+		"count": 1
+	}
+}

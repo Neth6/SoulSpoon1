@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "soulspoon:plantilla_limbo"
+  },
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "addition": {
+    "item": "soulspoon:pluma_limbo"
+  },
+  "result": {
+    "id": "soulspoon:casco_limbo",
+    "count": 1
+  }
+}

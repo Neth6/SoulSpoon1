@@ -1,0 +1,85 @@
+{
+	"has_precipitation": false,
+	"temperature": 1.0,
+	"downfall": 0.0,
+	"effects": {
+		"fog_color": 13130350,
+		"sky_color": 14715546,
+		"water_color": 15764142,
+		"water_fog_color": 12079214,
+		"grass_color": 13127786,
+		"foliage_color": 13127786,
+		"mood_sound": {
+			"sound": "minecraft:ambient.cave",
+			"tick_delay": 6000,
+			"block_search_extent": 8,
+			"offset": 2.0
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "dedsafio4:creeper_amarillo",
+				"weight": 60,
+				"minCount": 1,
+				"maxCount": 2
+			},
+			{
+				"type": "dedsafio4:nautilus_oseo",
+				"weight": 30,
+				"minCount": 3,
+				"maxCount": 5
+			},
+			{
+				"type": "dedsafio4:cerebro_amarillo",
+				"weight": 20,
+				"minCount": 1,
+				"maxCount": 2
+			},
+			{
+				"type": "dedsafio4:garrapata_cerebral",
+				"weight": 30,
+				"minCount": 1,
+				"maxCount": 3
+			}
+		],
+		"creature": [],
+		"ambient": [],
+		"axolotls": [],
+		"underground_water_creature": [],
+		"water_creature": [],
+		"water_ambient": [],
+		"misc": []
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"minecraft:cave",
+			"minecraft:cave_extra_underground",
+			"minecraft:canyon",
+			"dedsafio4:minas_gleba"
+		]
+	},
+	"features": [
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"dedsafio4:mineral_de_grasa"
+		],
+		[
+			"dedsafio4:pulmones"
+		],
+		[],
+		[
+			"dedsafio4:arbol_organo",
+			"dedsafio4:pasto_rosa",
+			"dedsafio4:verrugas",
+			"dedsafio4:dentaduras"
+		],
+		[]
+	]
+}

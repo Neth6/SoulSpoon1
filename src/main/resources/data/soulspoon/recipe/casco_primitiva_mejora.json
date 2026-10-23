@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "soulspoon:plantilla_primitiva"
+  },
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "addition": {
+    "item": "soulspoon:esencia_roja"
+  },
+  "result": {
+    "id": "soulspoon:casco_primitiva",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "soulspoon:plantilla_cedronica"
+  },
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "addition": {
+    "item": "soulspoon:cristal_cedronico"
+  },
+  "result": {
+    "id": "soulspoon:casco_cedronica",
+    "count": 1
+  }
+}

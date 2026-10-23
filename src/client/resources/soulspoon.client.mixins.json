@@ -3,7 +3,8 @@
 	"package": "neth6.soulspoon.client.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"ExampleClientMixin"
+		"ExampleClientMixin",
+		"ChestRendererMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -1,0 +1,29 @@
+{
+	"replace": false,
+	"values": [
+		"dedsafio4:boveda",
+		"dedsafio4:mineral_de_ambar",
+		"dedsafio4:mineral_de_grasa",
+		"dedsafio4:mensajero",
+		"dedsafio4:cofre_protegido",
+		"dedsafio4:bloque_celeste",
+		"dedsafio4:bloque_amarillo",
+		"dedsafio4:bloque_verde",
+		"dedsafio4:bloque_rojo",
+		"dedsafio4:bloque_pixeles",
+		"dedsafio4:robot_dormido",
+		"dedsafio4:caca",
+		"dedsafio4:mineral_verde",
+		"dedsafio4:bloque_naranja",
+		"dedsafio4:bloque_luces",
+		"dedsafio4:cajero",
+		"dedsafio4:bloque_dilitio",
+		"dedsafio4:cofre_huesos",
+		"dedsafio4:musculo",
+		"dedsafio4:gelatina_roja",
+		"dedsafio4:gelatina_rosa",
+		"dedsafio4:soporte_nave",
+		"dedsafio4:grasa_liquida",
+		"dedsafio4:grasa_coagulada"
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"IIC",
+		"V I",
+		"IIC"
+	],
+	"key": {
+		"I": {
+			"item": "minecraft:iron_block"
+		},
+		"C": {
+			"item": "soulspoon:chip_phora"
+		},
+		"V": {
+			"item": "minecraft:tinted_glass"
+		}
+	},
+	"result": {
+		"id": "soulspoon:nave_cabina",
+		"count": 1
+	}
+}
