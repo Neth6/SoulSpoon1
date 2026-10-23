@@ -1,0 +1,20 @@
+SOULSPOON - MODELOS DE BLOCKBENCH + ARMADURAS
+=============================================
+1) Descomprime este zip DENTRO de E:\spoon\SoulSpoon1 (aceptando reemplazar archivos).
+2) En Git Bash, dentro de la carpeta del repo:
+       python tools/aplicar_modelos.py
+3) IntelliJ: recarga Gradle y ejecuta (Run) o  ./gradlew build
+
+QUE INCLUYE
+- 11 modelos convertidos (geo + textura + animaciones idle/walk):
+  creeper_nuclear, plumosaurio (reemplazan a los provisionales), creeper_pasto, creeper_pastel, herobrine,
+  fantasma_negro, fantasma_blanco (el FANTASMA_V2), fantasma_amarillo, reptisaurio_salvaje, narval,
+  zarinosa_espigueya (mob nuevo).
+- Armaduras: tier 1 "Carmesi" (tu pixelart rojo/rosa) y tier 2 "Radiante" (tus iconos verde oliva),
+  con plantilla de mejora, recetas de mesa de herreria y capas de armadura puesta (auto-generadas).
+- Iconos: manzana_ambar (tu manzana) y linterna (el objeto rosa de 64x64; si en realidad es el altavoz,
+  renombra linterna.png <-> altavoz.png en textures/item).
+
+PARA MODELOS NUEVOS
+   python tools/importar_bbmodel.py MI_MODELO.bbmodel id_del_mob src/main/resources [estilo]
+   estilo: cuadrupedo | bipedo | humanoide | creeper | fantasma | acuatico

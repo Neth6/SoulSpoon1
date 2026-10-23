@@ -1,0 +1,8 @@
+ARMADURAS: PRIMITIVA (tier 1) y GLEBANOIDE (tier 2, la mas fuerte)
+1) Descomprime en E:\spoon\SoulSpoon1 (reemplaza ModArmor.java).
+2) Git Bash en el repo:  python tools/aplicar_armaduras.py
+3) Recarga Gradle y Run.
+Primitiva = antes "Radiante" (verde oliva). Glebanoide = antes "Carmesi" (con tu textura puesta "organica").
+Mejora: netherita + plantilla primitiva + esencia roja -> Primitiva; pieza Primitiva + plantilla glebanoide + estrella del Nether -> Glebanoide.
+Plantillas: 16x16 como las de Minecraft. Todos los iconos de armadura quedaron en 16x16.
+Stats en ModArmor.java (provisionales).

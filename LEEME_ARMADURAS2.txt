@@ -1,0 +1,11 @@
+ARMADURAS: arreglo de Primitiva/Glebanoide + nuevas Cedronica y Limbo
+1) Descomprime en E:\spoon\SoulSpoon1 (reemplaza ModArmor.java y tools/make_armor.py).
+2) Git Bash en la raiz del repo:  python -m pip install pillow numpy   (solo la primera vez)
+                                  python tools/aplicar_armaduras2.py
+3) ./gradlew build  y Run.
+Armadura PUESTA: la que dibujes tu en tools/worn_manual/<tier>_layer_1.png y _layer_2.png (64x32)
+manda sobre la generada. Glebanoide ya usa tu "organica".
+Mejoras (mesa de herreria):
+  Cedronica: pieza de netherita + plantilla cedronica + cristal cedronico
+  Limbo:     pieza de netherita + plantilla del limbo + pluma del limbo
+Stats provisionales en ModArmor.java.
